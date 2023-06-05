@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        tools:layout="@layout/fragment_home"
+        android:name="org.d3if2029.homeworkout.ui.home.HomeFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/action_homeFragment_to_menuLatihanActivity"
+            app:destination="@id/menuLatihanActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        tools:layout="@layout/fragment_profile"
+        android:name="org.d3if2029.homeworkout.ui.profile.ProfileFragment"
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/action_profileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_gantiPasswordFragment"
+            app:destination="@id/gantiPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="org.d3if2029.homeworkout.ui.profile.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" />
+    <fragment
+        android:id="@+id/gantiPasswordFragment"
+        android:name="org.d3if2029.homeworkout.ui.profile.GantiPasswordFragment"
+        android:label="fragment_ganti_password"
+        tools:layout="@layout/fragment_ganti_password" />
+    <activity
+        android:id="@+id/menuLatihanActivity"
+        android:name="org.d3if2029.homeworkout.ui.menulatihan.MenuLatihanActivity"
+        android:label="activity_menu_latihan"
+        tools:layout="@layout/activity_menu_latihan" />
+    <fragment
+        android:id="@+id/statistikFragment"
+        android:name="org.d3if2029.homeworkout.ui.tanggaldanstatistik.StatistikFragment"
+        android:label="fragment_statistik"
+        tools:layout="@layout/fragment_statistik" />
+</navigation>

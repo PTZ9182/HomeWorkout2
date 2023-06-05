@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HomeWorkout</string>
+    <string name="judul_splash">MAKE YOURSELF BETTER</string>
+    <string name="subjudul_spalsh">with workout make this application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/drawable-v24/ic_baseline_analytics_24.xml" value="0.1945" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/drawable/round_button.xml" value="0.1945" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/font/poppins.xml" value="0.28020833333333334" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/actavity_timer.xml" value="0.24895833333333334" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_main.xml" value="0.22509057971014493" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_menu_latihan.xml" value="0.25" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_splas_screen.xml" value="0.264" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_timer_workout.xml" value="0.25" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_edit_profile.xml" value="0.2" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_ganti_password.xml" value="0.136" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_home.xml" value="0.2359375" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_statistik.xml" value="0.25" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/item_jenis_latihan.xml" value="0.152" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/item_latihan.xml" value="0.2" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/jumlah_latihan.xml" value="0.25" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

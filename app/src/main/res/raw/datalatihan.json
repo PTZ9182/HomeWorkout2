@@ -1,0 +1,30 @@
+[
+    {
+      "nama": "Jumping Jack",
+      "gambar": "https://cdni.iconscout.com/illustration/premium/thumb/woman-doing-a-one-legged-push-up-on-the-floor-4029745-3360315.png?w=0&h=700",
+      "waktulatihan": "12 Menit  14 Latihan",
+      "banyak": "X 30"
+
+    },
+  {
+    "nama": "Push Up",
+    "gambar": "https://cdni.iconscout.com/illustration/premium/thumb/boy-lifting-dumbell-3051122-2543559.png?w=0&h=700",
+    "waktulatihan":"12 Menit 14 Latihan",
+    "banyak": "X 20"
+
+  },
+  {
+    "nama": "Pull Up",
+    "gambar": "https://cdni.iconscout.com/illustration/premium/thumb/strong-woman-lifting-barbell-3857858-3313810.png?w=0&h=700",
+    "waktulatihan": "12 Menit 14 Latihan",
+    "banyak": "X 12"
+
+  },
+  {
+    "nama": "Sit Up",
+    "gambar": "https://cdni.iconscout.com/illustration/premium/thumb/woman-training-abs-3857855-3313807.png?w=0&h=700",
+    "waktulatihan":"12 Menit 14 Latihan",
+    "banyak": "X 20"
+
+  }
+]
