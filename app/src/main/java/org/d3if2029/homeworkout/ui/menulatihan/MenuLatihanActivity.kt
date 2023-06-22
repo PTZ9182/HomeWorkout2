@@ -30,6 +30,7 @@ class MenuLatihanActivity : AppCompatActivity() {
             exerciseViewModel = ViewModelProvider(it!!).get(DatabaseViewModel::class.java)
         }
         exerciseAdapter = DataWorkoutAdapter(mutableListOf())
+//        attachObservers()
 
         val button : Button = findViewById(R.id.button_simpan_data_form)
         button.setOnClickListener{
@@ -38,5 +39,14 @@ class MenuLatihanActivity : AppCompatActivity() {
         }
 
     }
+//    private fun attachObservers() {
+//        exerciseViewModel.selectedExercise.observe(viewLifecycleOwner) {
+//            binding.dataLatihan.apply {
+//                adapter = exerciseAdapter
+//                layoutManager = LinearLayoutManager(activity)
+//            }
+//            exerciseAdapter.showData(it)
+//        }
+//    }
 
 }

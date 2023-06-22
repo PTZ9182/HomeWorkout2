@@ -18,7 +18,7 @@ class TimerWorkoutActivity : AppCompatActivity() {
 
         val button : Button = findViewById(R.id.button_selanjutnya)
         button.setOnClickListener{
-            val intent = Intent(this@TimerWorkoutActivity,MenuLatihanActivity::class.java)
+            val intent = Intent(this@TimerWorkoutActivity,SelesaiLatihanActivity::class.java)
             startActivity(intent)
         }
         val button2 : Button = findViewById(R.id.button_sebelumnya)

@@ -36,7 +36,7 @@ class StatistikFragment : Fragment() {
             Entry(4f, 10f)
         )
 
-        val dataSet = LineDataSet(entries, "Data Latihan")
+        val dataSet = LineDataSet(entries, "Kalori")
         val lineData = LineData(dataSet)
 
         binding.lineChart.data = lineData
