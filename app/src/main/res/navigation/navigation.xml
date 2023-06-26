@@ -25,6 +25,9 @@
         <action
             android:id="@+id/action_profileFragment_to_gantiPasswordFragment"
             app:destination="@id/gantiPasswordFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_BMIActivity"
+            app:destination="@id/BMIActivity" />
     </fragment>
     <fragment
         android:id="@+id/editProfileFragment"
@@ -45,5 +48,19 @@
         android:id="@+id/statistikFragment"
         android:name="org.d3if2029.homeworkout.ui.tanggaldanstatistik.StatistikFragment"
         android:label="fragment_statistik"
-        tools:layout="@layout/fragment_statistik" />
+        tools:layout="@layout/fragment_statistik" >
+        <action
+            android:id="@+id/action_statistikFragment_to_historyActivity"
+            app:destination="@id/historyActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/historyActivity"
+        android:name="org.d3if2029.homeworkout.ui.tanggaldanstatistik.HistoryActivity"
+        android:label="HistoryActivity"
+        tools:layout="@layout/activity_history"/>
+    <activity
+        android:id="@+id/BMIActivity"
+        android:name="org.d3if2029.homeworkout.ui.profile.BMIActivity"
+        android:label="activity_bmi"
+        tools:layout="@layout/activity_bmi" />
 </navigation>

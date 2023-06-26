@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -94,6 +95,12 @@ dependencies {
 
     //linechart
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+
+    //Notification
+
 
     // Feature module Support
     implementation("androidx.navigation:navigation-dynamic-features-fragment:$nav_version")

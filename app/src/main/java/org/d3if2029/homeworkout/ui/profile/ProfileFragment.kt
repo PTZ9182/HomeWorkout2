@@ -31,6 +31,9 @@ class ProfileFragment : Fragment() {
         binding.constraintLayout4.setOnClickListener {
             it.findNavController().navigate(R.id.action_profileFragment_to_editProfileFragment)
         }
+        binding.pageBmi.setOnClickListener{
+            it.findNavController().navigate(R.id.action_profileFragment_to_BMIActivity)
+        }
         binding.constraintLayout5.setOnClickListener {
             it.findNavController().navigate(R.id.action_profileFragment_to_gantiPasswordFragment)
         }

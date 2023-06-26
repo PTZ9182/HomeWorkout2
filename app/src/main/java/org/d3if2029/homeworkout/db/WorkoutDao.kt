@@ -7,15 +7,11 @@ import org.d3if2029.homeworkout.entity.DataWorkout
 
 @Dao
 interface WorkoutDao {
-    @Insert(onConflict = OnConflictStrategy.REPLACE )
-    suspend fun insertAllWorkout(exercise: List<DataWorkout>)
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertAllWorkout(workout: List<DataWorkout>)
 
-    @Query("SELECT * FROM workout")
+    @Query("SELECT * FROM datalatihan")
     fun getWorkout(): LiveData<List<DataWorkout>>
-
-    @Query("SELECT * FROM workout")
+    @Query("SELECT * FROM datalatihan")
     fun getAllWorkout(): Flow<List<DataWorkout>>
-
-    @Query("SELECT * FROM workout")
-    fun getWorkoutList(): List<DataWorkout>
 }

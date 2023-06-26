@@ -19,15 +19,20 @@
         <activity
             android:name=".ui.menulatihan.SelesaiLatihanActivity"
             android:exported="false" />
-        <activity
-            android:name=".ui.menulatihan.TimerWorkoutActivity"
-            android:exported="false" />
+        <activity android:name=".ui.tanggaldanstatistik.HistoryActivity"
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".ui.menulatihan.MenuLatihanActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.ExerciseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.profile.BMIActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.splashscreen.SplasScreenActivity"
             android:exported="true"

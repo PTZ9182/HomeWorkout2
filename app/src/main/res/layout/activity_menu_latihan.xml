@@ -83,7 +83,7 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/data_latihan"
+        android:id="@+id/data_latihan1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center"
@@ -101,7 +101,7 @@
         android:background="@drawable/round_button"
         android:orientation="vertical"
         android:padding="5dp"
-        app:layout_constraintBottom_toBottomOf="@+id/data_latihan"
+        app:layout_constraintBottom_toBottomOf="@+id/data_latihan1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 

@@ -6,9 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.CalendarView
+import androidx.navigation.findNavController
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
+import org.d3if2029.homeworkout.R
 import org.d3if2029.homeworkout.databinding.FragmentStatistikBinding
 
 class StatistikFragment : Fragment() {
@@ -18,6 +20,7 @@ class StatistikFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
+
 
         binding = FragmentStatistikBinding.inflate(inflater, container, false)
         binding.calendarView
@@ -41,6 +44,9 @@ class StatistikFragment : Fragment() {
 
         binding.lineChart.data = lineData
         binding.lineChart.invalidate()
+        binding.lineChart.setOnClickListener {
+            it.findNavController().navigate(R.id.action_statistikFragment_to_historyActivity)
+        }
         return binding.root
     }
 
