@@ -17,10 +17,20 @@
         tools:remove="android:appComponentFactory"
         tools:targetApi="31">
         <activity
+            android:name=".ui.profile.FoodDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.NutrisiActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.menulatihan.SelesaiLatihanActivity"
             android:exported="false" />
-        <activity android:name=".ui.tanggaldanstatistik.HistoryActivity"
-            android:screenOrientation="portrait"></activity>
+
+        <receiver
+            android:name=".NotificationReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
         <activity
             android:name=".ui.menulatihan.MenuLatihanActivity"
             android:exported="false" />
@@ -29,10 +39,10 @@
             android:exported="false" />
         <activity
             android:name=".ui.menulatihan.ExerciseActivity"
-            android:screenOrientation="portrait" />
+            android:exported="false"  />
         <activity
             android:name=".ui.profile.BMIActivity"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".ui.splashscreen.SplasScreenActivity"
             android:exported="true"

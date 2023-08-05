@@ -14,6 +14,7 @@ class SqliteOpenHelper(context : Context, factory: SQLiteDatabase.CursorFactory?
         private val TABLE_HISTORY = "history"
         private val COLUMN_ID = "_id"
         private val COLUMN_COMPLETED_DATE = "completed_date"
+
     }
 
     override fun onCreate(db: SQLiteDatabase?) {
@@ -34,12 +35,10 @@ class SqliteOpenHelper(context : Context, factory: SQLiteDatabase.CursorFactory?
     fun addDate(date : String){
         val values = ContentValues()
         values.put(COLUMN_COMPLETED_DATE, date)
-
         val db = this.writableDatabase
         db.insert(TABLE_HISTORY,null,values)
         db.close()
     }
-
     fun getAllCompletedDatesList() : ArrayList<String>{
         val datesList = ArrayList<String>()
         val db = this.readableDatabase //make the db readable

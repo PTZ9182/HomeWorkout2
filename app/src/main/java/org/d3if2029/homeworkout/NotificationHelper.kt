@@ -28,7 +28,7 @@ class NotificationHelper(private val context: Context) {
         }
     }
 
-    @RequiresApi(Build.VERSION_CODES.S)
+    @RequiresApi(Build.VERSION_CODES.R)
     fun createNotificationIntent(): PendingIntent {
         val intent = Intent(context, MainActivity::class.java)
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
@@ -43,8 +43,8 @@ class NotificationHelper(private val context: Context) {
 
     fun scheduleNotification() {
         val calendar = Calendar.getInstance()
-        calendar.set(Calendar.HOUR_OF_DAY, 8) // Set jam pengingat (contoh: pukul 8 pagi)
-        calendar.set(Calendar.MINUTE, 0)
+        calendar.set(Calendar.HOUR_OF_DAY, 15)
+        calendar.set(Calendar.MINUTE, 20)
         calendar.set(Calendar.SECOND, 0)
 
         val intent = Intent(context, NotificationReceiver::class.java)
@@ -71,11 +71,9 @@ class NotificationHelper(private val context: Context) {
             .setLabel(replyLabel)
             .build()
 
-
-
         return NotificationCompat.Builder(context, CHANNEL_ID)
-            .setContentTitle("Daily Reminder")
-            .setContentText("Waktunya melakukan tugas harian!")
+            .setContentTitle("HomeWorkout")
+            .setContentText("Waktunya melakukan latihan harian!")
             .setSmallIcon(R.drawable.ic_notifications)
             .setContentIntent(createNotificationIntent())
             .setAutoCancel(true)

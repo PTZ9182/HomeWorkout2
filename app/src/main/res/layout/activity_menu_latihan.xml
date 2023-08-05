@@ -41,7 +41,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="40dp"
                     android:fontFamily="@font/poppins_bold"
-                    android:text="Seluruh Tubuh \n"
+                    android:text="Deskripsi"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold"
@@ -69,41 +69,53 @@
 
     </LinearLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/banyak_latihan"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layout_chip"
-        tools:itemCount="1"
-        tools:listitem="@layout/jumlah_latihan" />
 
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/data_latihan1"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/main_exercise_image"
+        android:layout_width="343dp"
+        android:layout_height="325dp"
+        android:src="@drawable/logo_aplikasi"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/banyak_latihan"
-        tools:listitem="@layout/item_jenis_latihan" />
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView2"
+        android:layout_width="409dp"
+        android:layout_height="201dp"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_exercise_image">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/description_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:text="Melakukan olahraga secara rutin dapat membuat tubuh menjadi lebih sehat. Selain itu, berolahraga secara rutin pun juga dapat membuat kita jadi lebih rutin dan disiplin dalam berolahraga. Itulah mengapa, berolahraga secara rutin sangat dianjurkan untuk kita lakukan. Olahraga yang mesti dilakukan secara rutin tidaklah harus olahraga yang berat. Olahraga yang ringan semacam berjalan kaki pun juga bisa dilakukan secara rutin." />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/buttonbawah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
         android:background="@drawable/round_button"
         android:orientation="vertical"
         android:padding="5dp"
-        app:layout_constraintBottom_toBottomOf="@+id/data_latihan1"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nestedScrollView2">
 
         <Button
             android:id="@+id/button_simpan_data_form"
@@ -122,8 +134,6 @@
             tools:ignore="TextContrastCheck" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

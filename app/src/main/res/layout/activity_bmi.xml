@@ -6,15 +6,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".ui.profile.BMIActivity"
-    android:background="@color/white">
+    android:background="#E5F1FF">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_bmi_activity"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
         android:background="@drawable/toolbar_bg"
-        app:titleTextColor="@color/white"
-        app:title="CALCULATE BMI"
-        android:id="@+id/toolbar_bmi_activity" />
+        app:title="Hitung BMI"
+        app:titleTextColor="@color/white" />
 
     <RadioGroup
         android:layout_width="match_parent"

@@ -9,6 +9,7 @@ data class DataLatihan(
  @PrimaryKey(autoGenerate = true) val id: Int,
  @SerializedName("name") val name: String,
  @SerializedName("image") val image: String,
+ @SerializedName("description") val description: String,
  @SerializedName("tantangan") val tantangan: String,
  @SerializedName("kesusahan") val kesusahan: String
 )

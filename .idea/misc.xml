@@ -15,6 +15,7 @@
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/drawable/ic_reply.xml" value="0.1845" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/drawable/item_circular_color_gray_bg.xml" value="0.1" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/drawable/item_circular_thin_color_border.xml" value="0.1" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/drawable/pick_background_menu.xml" value="0.2" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/drawable/radio_group_tab_background.xml" value="0.1" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/drawable/round_button.xml" value="0.1945" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/drawable/toolbar_bg.xml" value="0.1" />
@@ -25,10 +26,15 @@
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/actavity_timer.xml" value="0.24895833333333334" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_bmi.xml" value="0.14814814814814814" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_exercise.xml" value="0.1962962962962963" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_food_detail.xml" value="0.25" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_history.xml" value="0.1" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_login_karyawan.xml" value="0.264" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_main.xml" value="0.22509057971014493" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_menu_latihan.xml" value="0.25" />
-        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_selesai_latihan.xml" value="0.25" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_nutrisi.xml" value="0.25" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_selesai_latihan.xml" value="0.2" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_splas_screen.xml" value="0.264" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_timer_workout.xml" value="0.25" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/dialog_custom_back_confirmation.xml" value="0.4" />
@@ -36,8 +42,9 @@
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_ganti_password.xml" value="0.136" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_home.xml" value="0.2359375" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
-        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_statistik.xml" value="0.10566037735849057" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_statistik.xml" value="0.176" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/item_exercise_status.xml" value="0.1962962962962963" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/item_food.xml" value="0.25" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/item_history_row.xml" value="0.2" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/item_jenis_latihan.xml" value="0.152" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/item_latihan.xml" value="0.2" />

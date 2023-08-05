@@ -9,7 +9,8 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_history_row.view.*
 import org.d3if2029.homeworkout.R
 
-class HistoryAdapter (val context: Context,val items : ArrayList<String>) : RecyclerView.Adapter<HistoryAdapter.ViewHolder>() {
+
+class HistoryAdapter(val context: Context, val items: ArrayList<String>) : RecyclerView.Adapter<HistoryAdapter.ViewHolder>() {
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val llHistory = view.history_item_main_ll

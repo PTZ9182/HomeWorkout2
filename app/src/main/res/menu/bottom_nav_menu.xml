@@ -4,15 +4,15 @@
     <item
         android:id="@+id/homeFragment"
         android:icon="@drawable/ic_baseline_home_24"
-        android:title="Home" />
+        android:title="Menu" />
     <item
         android:id="@+id/statistikFragment"
         android:icon="@drawable/ic_baseline_analytics_24"
         android:title="Statistik" />
     <item
         android:id="@+id/profileFragment"
-        android:icon="@drawable/ic_baseline_person_24"
-        android:title="Profile" />
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Pengaturan" />
 
 
 </menu>

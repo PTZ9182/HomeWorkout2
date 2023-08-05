@@ -20,25 +20,13 @@
         android:name="org.d3if2029.homeworkout.ui.profile.ProfileFragment"
         android:label="ProfileFragment" >
         <action
-            android:id="@+id/action_profileFragment_to_editProfileFragment"
-            app:destination="@id/editProfileFragment" />
-        <action
-            android:id="@+id/action_profileFragment_to_gantiPasswordFragment"
-            app:destination="@id/gantiPasswordFragment" />
-        <action
             android:id="@+id/action_profileFragment_to_BMIActivity"
             app:destination="@id/BMIActivity" />
+        <action
+            android:id="@+id/action_profileFragment_to_nutrisiActivity"
+            app:destination="@id/nutrisiActivity" />
     </fragment>
-    <fragment
-        android:id="@+id/editProfileFragment"
-        android:name="org.d3if2029.homeworkout.ui.profile.EditProfileFragment"
-        android:label="fragment_edit_profile"
-        tools:layout="@layout/fragment_edit_profile" />
-    <fragment
-        android:id="@+id/gantiPasswordFragment"
-        android:name="org.d3if2029.homeworkout.ui.profile.GantiPasswordFragment"
-        android:label="fragment_ganti_password"
-        tools:layout="@layout/fragment_ganti_password" />
+
     <activity
         android:id="@+id/menuLatihanActivity"
         android:name="org.d3if2029.homeworkout.ui.menulatihan.MenuLatihanActivity"
@@ -49,18 +37,16 @@
         android:name="org.d3if2029.homeworkout.ui.tanggaldanstatistik.StatistikFragment"
         android:label="fragment_statistik"
         tools:layout="@layout/fragment_statistik" >
-        <action
-            android:id="@+id/action_statistikFragment_to_historyActivity"
-            app:destination="@id/historyActivity" />
+
     </fragment>
-    <activity
-        android:id="@+id/historyActivity"
-        android:name="org.d3if2029.homeworkout.ui.tanggaldanstatistik.HistoryActivity"
-        android:label="HistoryActivity"
-        tools:layout="@layout/activity_history"/>
+
     <activity
         android:id="@+id/BMIActivity"
         android:name="org.d3if2029.homeworkout.ui.profile.BMIActivity"
         android:label="activity_bmi"
         tools:layout="@layout/activity_bmi" />
+    <activity
+        android:id="@+id/nutrisiActivity"
+        android:name="org.d3if2029.homeworkout.ui.profile.NutrisiActivity"
+        android:label="NutrisiActivity" />
 </navigation>
