@@ -8,6 +8,7 @@ import org.d3if2029.homeworkout.MainActivity
 import org.d3if2029.homeworkout.R
 import org.d3if2029.homeworkout.entity.Sqlite
 import org.d3if2029.homeworkout.entity.SqliteOpenHelper
+import java.security.SecureRandom
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -33,11 +34,13 @@ class SelesaiLatihanActivity : AppCompatActivity() {
         val dbHandler = SqliteOpenHelper(this,null)
         dbHandler.addDate(date)
     }
-    private fun addKalori(){
-        val kalori = listOf("200", "250", "300").random()
+    private fun addKalori() {
+        val kaloriValues = listOf("200", "250", "300")
+        val secureRandom = SecureRandom()
 
+        val randomKalori = kaloriValues[secureRandom.nextInt(kaloriValues.size)]
 
-        val dbhandler = Sqlite(this,null)
-        dbhandler.addKalori(kalori)
+        val dbHandler = Sqlite(this, null)
+        dbHandler.addKalori(randomKalori)
     }
 }
