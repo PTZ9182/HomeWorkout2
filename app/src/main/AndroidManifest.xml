@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.d3if2029.homeworkout">
+    package="org.d3if2029.homeworkout" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -15,7 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeWorkout"
         tools:remove="android:appComponentFactory"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+        <activity
+            android:name=".uicewek.homecewek.HomeFragmentCewek"
+            android:label="Home Fragment Cewek"
+            tools:ignore="Instantiatable">
+        </activity>
         <activity
             android:name=".ui.profile.FoodDetailActivity"
             android:exported="false" />
@@ -35,18 +40,84 @@
             android:name=".ui.menulatihan.MenuLatihanActivity"
             android:exported="false" />
         <activity
+            android:name=".ui.menulatihan.MenuLatihan2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.MenuLatihan3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.MenuLatihan4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.MenuLatihan5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.MenuLatihan6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.MenuLatihanCewekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.MenuLatihanCewek2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.MenuLatihanCewek3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.MenuLatihanCewek4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.MenuLatihanCewek5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.MenuLatihanCewek6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.ExerciseCewekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.ExerciseCewekActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.ExerciseCewekActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.ExerciseCewekActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.ExerciseCewekActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.ExerciseCewekActivity6"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".ui.menulatihan.ExerciseActivity"
-            android:exported="false"  />
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.Exercise2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.Exercise3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.Exercise4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.Exercise5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.Exercise6Activity"
+            android:exported="false" />
         <activity
             android:name=".ui.profile.BMIActivity"
             android:exported="false" />
         <activity
             android:name=".ui.splashscreen.SplasScreenActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

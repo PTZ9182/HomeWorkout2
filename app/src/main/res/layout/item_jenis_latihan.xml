@@ -63,22 +63,21 @@
                 app:layout_constraintTop_toBottomOf="@+id/nama_latihan1" />
 
 
-
             <TextView
                 android:id="@+id/banyak_latihan"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="88dp"
+                android:layout_height="24dp"
                 android:layout_marginStart="165dp"
                 android:layout_marginTop="20dp"
-                android:drawableTint="@color/black"
-                android:gravity="center"
                 android:drawablePadding="10dp"
-                android:textColor="@color/black"
+                android:drawableTint="@color/black"
                 android:fontFamily="@font/poppins_medium"
-                android:text="X 30"
+                android:gravity="center"
+                android:text="tantangan"
+                android:textColor="@color/black"
                 android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="@+id/bg1"
-                app:layout_constraintTop_toBottomOf="@+id/kesusahan1"/>
+                app:layout_constraintTop_toBottomOf="@+id/kesusahan1" />
 
 
 

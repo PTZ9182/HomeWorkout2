@@ -40,7 +40,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="40dp"
                     android:fontFamily="@font/poppins_bold"
-                    android:text="Latihan Di Semua \nLevel Kesulitan"
+                    android:text="Latihan Workout  \nKhusus Laki-Laki"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold"

@@ -3,20 +3,20 @@
     "name": "Tubuh Bagian Atas",
     "nama": "Jumping Jack",
     "waktu": "X 30",
-    "image": "https://firebasestorage.googleapis.com/v0/b/pa2023-31d07.appspot.com/o/BagianAtasMenengah.jpg?alt=media&token=ac968c10-921d-43f4-8226-b7b6293f5e9a",
+    "image": "https://firebasestorage.googleapis.com/v0/b/pa2023-31d07.appspot.com/o/BagianAtasPemula.jpg?alt=media&token=b1fa552a-ce3e-48c5-bab3-0277489e5e3f",
     "description": "(Juga disebut press-up dalam bahasa Inggris British) adalah latihan senam umum yang dimulai dari posisi tengkurap. Dengan menaikkan dan menurunkan tubuh menggunakan lengan, push-up melatih otot dada, trisep, dan deltoid anterior, dengan manfaat tambahan untuk sisa deltoid, serratus anterior, coracobrachialis dan bagian tengah tubuh secara keseluruhan. Push-up adalah latihan dasar yang digunakan dalam pelatihan atletik sipil atau pendidikan jasmani dan umumnya dalam pelatihan fisik militer. Mereka juga merupakan bentuk hukuman umum yang digunakan dalam militer, olahraga sekolah, dan beberapa disiplin seni bela diri",
-    "kesusahan": "Menengah",
-    "tantangan": "250 Kalori"
+    "kesusahan": "Pemula",
+    "tantangan": "200 Kalori"
 
   },
   {
     "name": "Tubuh Bagian Atas",
     "nama": "Jumping Jack",
     "waktu": "X 30",
-    "image": "https://firebasestorage.googleapis.com/v0/b/pa2023-31d07.appspot.com/o/BagianAtasPemula.jpg?alt=media&token=b1fa552a-ce3e-48c5-bab3-0277489e5e3f",
+    "image": "https://firebasestorage.googleapis.com/v0/b/pa2023-31d07.appspot.com/o/BagianAtasMenengah.jpg?alt=media&token=ac968c10-921d-43f4-8226-b7b6293f5e9a",
     "description": "(Juga disebut press-up dalam bahasa Inggris British) adalah latihan senam umum yang dimulai dari posisi tengkurap. Dengan menaikkan dan menurunkan tubuh menggunakan lengan, push-up melatih otot dada, trisep, dan deltoid anterior, dengan manfaat tambahan untuk sisa deltoid, serratus anterior, coracobrachialis dan bagian tengah tubuh secara keseluruhan. Push-up adalah latihan dasar yang digunakan dalam pelatihan atletik sipil atau pendidikan jasmani dan umumnya dalam pelatihan fisik militer. Mereka juga merupakan bentuk hukuman umum yang digunakan dalam militer, olahraga sekolah, dan beberapa disiplin seni bela diri",
-    "kesusahan": "Pemula",
-    "tantangan": "200 Kalori"
+    "kesusahan": "Menengah",
+    "tantangan": "250 Kalori"
 
   },
   {
@@ -30,47 +30,7 @@
 
   },
   {
-    "name": "Tubuh Bagian Bawah",
-    "nama": "Jumping Jack",
-    "waktu": "X 30",
-    "image": "https://firebasestorage.googleapis.com/v0/b/pa2023-31d07.appspot.com/o/BagianBawahPemula.jpg?alt=media&token=2935fccf-ca9d-4939-9b6e-cb5234dbdad4",
-    "description": "(Juga disebut press-up dalam bahasa Inggris British) adalah latihan senam umum yang dimulai dari posisi tengkurap. Dengan menaikkan dan menurunkan tubuh menggunakan lengan, push-up melatih otot dada, trisep, dan deltoid anterior, dengan manfaat tambahan untuk sisa deltoid, serratus anterior, coracobrachialis dan bagian tengah tubuh secara keseluruhan. Push-up adalah latihan dasar yang digunakan dalam pelatihan atletik sipil atau pendidikan jasmani dan umumnya dalam pelatihan fisik militer. Mereka juga merupakan bentuk hukuman umum yang digunakan dalam militer, olahraga sekolah, dan beberapa disiplin seni bela diri",
-    "kesusahan": "Pemula",
-    "tantangan": "200 Kalori"
-
-  },
-  {
-    "name": "Tubuh Bagian Bawah",
-    "nama": "Jumping Jack",
-    "waktu": "X 30",
-    "image": "https://firebasestorage.googleapis.com/v0/b/pa2023-31d07.appspot.com/o/BagianBawahMenengahV2.jpg?alt=media&token=985fd337-617a-4014-94b4-e7889c8b3194",
-    "description": "(Juga disebut press-up dalam bahasa Inggris British) adalah latihan senam umum yang dimulai dari posisi tengkurap. Dengan menaikkan dan menurunkan tubuh menggunakan lengan, push-up melatih otot dada, trisep, dan deltoid anterior, dengan manfaat tambahan untuk sisa deltoid, serratus anterior, coracobrachialis dan bagian tengah tubuh secara keseluruhan. Push-up adalah latihan dasar yang digunakan dalam pelatihan atletik sipil atau pendidikan jasmani dan umumnya dalam pelatihan fisik militer. Mereka juga merupakan bentuk hukuman umum yang digunakan dalam militer, olahraga sekolah, dan beberapa disiplin seni bela diri",
-    "kesusahan": "Menengah",
-    "tantangan": "250 Kalori"
-
-  },
-  {
-    "name": "Tubuh Bagian Bawah",
-    "nama": "Jumping Jack",
-    "waktu": "X 30",
-    "image": "https://firebasestorage.googleapis.com/v0/b/pa2023-31d07.appspot.com/o/BagianBawahAhli.jpg?alt=media&token=c0b35d06-1881-4e9f-90a0-34098c563e03",
-    "description": "(Juga disebut press-up dalam bahasa Inggris British) adalah latihan senam umum yang dimulai dari posisi tengkurap. Dengan menaikkan dan menurunkan tubuh menggunakan lengan, push-up melatih otot dada, trisep, dan deltoid anterior, dengan manfaat tambahan untuk sisa deltoid, serratus anterior, coracobrachialis dan bagian tengah tubuh secara keseluruhan. Push-up adalah latihan dasar yang digunakan dalam pelatihan atletik sipil atau pendidikan jasmani dan umumnya dalam pelatihan fisik militer. Mereka juga merupakan bentuk hukuman umum yang digunakan dalam militer, olahraga sekolah, dan beberapa disiplin seni bela diri",
-    "kesusahan": "Ahli",
-    "tantangan": "300 Kalori"
-
-  },
-  {
     "name": "Seluruh Tubuh",
-    "nama": "Jumping Jack",
-    "waktu": "X 30",
-    "image": "https://firebasestorage.googleapis.com/v0/b/pa2023-31d07.appspot.com/o/BagianBawahMenengahV2.jpg?alt=media&token=985fd337-617a-4014-94b4-e7889c8b3194",
-    "description": "(Juga disebut press-up dalam bahasa Inggris British) adalah latihan senam umum yang dimulai dari posisi tengkurap. Dengan menaikkan dan menurunkan tubuh menggunakan lengan, push-up melatih otot dada, trisep, dan deltoid anterior, dengan manfaat tambahan untuk sisa deltoid, serratus anterior, coracobrachialis dan bagian tengah tubuh secara keseluruhan. Push-up adalah latihan dasar yang digunakan dalam pelatihan atletik sipil atau pendidikan jasmani dan umumnya dalam pelatihan fisik militer. Mereka juga merupakan bentuk hukuman umum yang digunakan dalam militer, olahraga sekolah, dan beberapa disiplin seni bela diri",
-    "kesusahan": "Ahli",
-    "tantangan": "300 Kalori"
-
-  },
-  {
-    "name": "Lengan",
     "nama": "Jumping Jack",
     "waktu": "X 30",
     "image": "https://firebasestorage.googleapis.com/v0/b/pa2023-31d07.appspot.com/o/LenganPemula.jpg?alt=media&token=9545d9d6-b141-4827-b3df-07632359a267",
@@ -80,7 +40,7 @@
 
   },
   {
-    "name": "Lengan",
+    "name": "Seluruh Tubuh",
     "nama": "Jumping Jack",
     "waktu": "X 30",
     "image": "https://firebasestorage.googleapis.com/v0/b/pa2023-31d07.appspot.com/o/SeluruhTubuhAhli.jpg?alt=media&token=7c70be6e-3f9c-4f5d-8ea2-f0e1b62abc00",
@@ -90,7 +50,7 @@
 
   },
   {
-    "name": "Lengan",
+    "name": "Seluruh Tubuh",
     "nama": "Jumping Jack",
     "waktu": "X 30",
     "image": "https://firebasestorage.googleapis.com/v0/b/pa2023-31d07.appspot.com/o/LenganAhli.jpg?alt=media&token=5b5698dd-55aa-479e-bfe2-730448811840",

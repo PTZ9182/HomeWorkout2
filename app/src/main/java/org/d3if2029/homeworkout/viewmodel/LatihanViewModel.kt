@@ -14,9 +14,9 @@ class LatihanViewModel(application: Application) : AndroidViewModel(application)
     val difficulty = MutableStateFlow("semua")
 
     init {
-       val exerciseDao = LatihanDatabase
-           .getDatabase(application, viewModelScope, application.resources)
-           .exerciseDao()
+        val exerciseDao = LatihanDatabase
+            .getDatabase(application, viewModelScope, application.resources)
+            .exerciseDao()
         repository = LatihanRepository(exerciseDao)
     }
 

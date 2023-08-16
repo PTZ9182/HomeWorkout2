@@ -1,5 +1,6 @@
 package org.d3if2029.homeworkout.ui.home
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -14,6 +15,7 @@ import com.google.android.material.chip.Chip
 import org.d3if2029.homeworkout.R
 import org.d3if2029.homeworkout.adapter.DataLatihanAdapter
 import org.d3if2029.homeworkout.databinding.FragmentHomeBinding
+import org.d3if2029.homeworkout.ui.menulatihan.*
 import org.d3if2029.homeworkout.viewmodel.LatihanViewModel
 
 class HomeFragment : Fragment() {
@@ -21,6 +23,15 @@ class HomeFragment : Fragment() {
     private val binding get() = _binding
     private lateinit var exerciseViewModel: LatihanViewModel
     private lateinit var exerciseAdapter: DataLatihanAdapter
+    private val exerciseActivityMap = mapOf(
+        1 to MenuLatihanActivity::class.java,
+        2 to MenuLatihan2Activity::class.java,
+        3 to MenuLatihan3Activity::class.java,
+        4 to MenuLatihan4Activity::class.java,
+        5 to MenuLatihan5Activity::class.java,
+        6 to MenuLatihan6Activity::class.java
+        // Tambahkan pemetaan lain sesuai kebutuhan
+    )
 
 
 
@@ -41,9 +52,15 @@ class HomeFragment : Fragment() {
         }
         exerciseAdapter = DataLatihanAdapter(mutableListOf())
 
+
         exerciseAdapter.setOnExerciseListener { exercise ->
-           exerciseViewModel.setSelectedExercise(exercise)
-           findNavController().navigate(R.id.menuLatihanActivity, arguments, NavOptions.Builder().setPopUpTo(R.id.menuLatihanActivity, true).build())
+            exerciseViewModel.setSelectedExercise(exercise)
+
+            val intent = exerciseActivityMap[exercise.id]
+                ?.let { Intent(requireContext(), it) }
+                ?: Intent(requireContext(), MenuLatihan6Activity::class.java)
+
+            startActivity(intent)
         }
 
         withTags()

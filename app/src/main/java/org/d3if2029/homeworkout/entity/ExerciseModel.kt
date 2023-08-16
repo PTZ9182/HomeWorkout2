@@ -3,6 +3,7 @@ package org.d3if2029.homeworkout.entity
 class ExerciseModel(private var id : Int,
                     private var name : String,
                     private var image : Int,
+                    private var desk : String,
                     private var isCompleted : Boolean,
                     private var isSelected : Boolean) {
 
@@ -28,6 +29,10 @@ class ExerciseModel(private var id : Int,
 
     fun setImage(image : Int){
         this.image = image
+    }
+
+    fun getDesk() : String {
+        return desk
     }
 
     fun getIsCompleted() : Boolean {

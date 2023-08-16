@@ -38,10 +38,10 @@
                     android:id="@+id/training_call"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
                     android:fontFamily="@font/poppins_bold"
-                    android:text="Deskripsi"
+                    android:text="Tubuh Bagian Atas Pemula"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold"
@@ -74,15 +74,15 @@
         android:id="@+id/main_exercise_image"
         android:layout_width="343dp"
         android:layout_height="325dp"
-        android:src="@drawable/logo_aplikasi"
+        android:src="@drawable/bagianataspemula"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/nestedScrollView2"
-        android:layout_width="409dp"
-        android:layout_height="201dp"
+        android:layout_width="412dp"
+        android:layout_height="182dp"
         android:fillViewport="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,8 +98,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Tujuan utama latihan workout bagi pemula adalah membangun dasar kekuatan, kelincahan, dan daya tahan tubuh. Latihan ini juga membantu dalam meningkatkan kesehatan jantung, mengurangi risiko cedera, dan memperbaiki postur tubuh.
+"
                 android:textColor="@color/black"
-                android:text="Melakukan olahraga secara rutin dapat membuat tubuh menjadi lebih sehat. Selain itu, berolahraga secara rutin pun juga dapat membuat kita jadi lebih rutin dan disiplin dalam berolahraga. Itulah mengapa, berolahraga secara rutin sangat dianjurkan untuk kita lakukan. Olahraga yang mesti dilakukan secara rutin tidaklah harus olahraga yang berat. Olahraga yang ringan semacam berjalan kaki pun juga bisa dilakukan secara rutin." />
+                android:textSize="16sp"
+                android:textStyle="bold" />
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 

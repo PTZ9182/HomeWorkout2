@@ -6,11 +6,12 @@ import com.google.gson.annotations.SerializedName
 
 @Entity(tableName = "exercise")
 data class DataLatihan(
- @PrimaryKey(autoGenerate = true) val id: Int,
+ @PrimaryKey(autoGenerate = true) val id: Int = 0,
  @SerializedName("name") val name: String,
  @SerializedName("image") val image: String,
  @SerializedName("description") val description: String,
  @SerializedName("tantangan") val tantangan: String,
- @SerializedName("kesusahan") val kesusahan: String
+ @SerializedName("kesusahan") val kesusahan: String,
+ val activityType: Int  // New property for activity type
 )
 

@@ -9,7 +9,7 @@ import org.d3if2029.homeworkout.entity.DataLatihan
 @Dao
 interface LatihanDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-     suspend fun insertAllExercises(exercise: List<DataLatihan>)
+    suspend fun insertAllExercises(exercises: List<DataLatihan>)
 
     @Query("SELECT * FROM exercise")
     fun getExercises(): LiveData<List<DataLatihan>>

@@ -146,6 +146,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         // setting exercise values
         image_iv.setImageResource(exerciseList!![currentExercisePosition].getImage())
         exercise_name_tv.text = exerciseList!![currentExercisePosition].getName()
+        exercise_desk_tv.text = exerciseList!![currentExercisePosition].getDesk()
     }
 
     override fun onInit(status: Int) {

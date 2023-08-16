@@ -25,6 +25,9 @@
         <action
             android:id="@+id/action_profileFragment_to_nutrisiActivity"
             app:destination="@id/nutrisiActivity" />
+        <action
+            android:id="@+id/action_profileFragment_to_homeFragmentCewek"
+            app:destination="@id/homeFragmentCewek" />
     </fragment>
 
     <activity
@@ -49,4 +52,18 @@
         android:id="@+id/nutrisiActivity"
         android:name="org.d3if2029.homeworkout.ui.profile.NutrisiActivity"
         android:label="NutrisiActivity" />
+    <fragment
+        android:id="@+id/homeFragmentCewek"
+        tools:layout="@layout/fragment_home_cewek"
+        android:name="org.d3if2029.homeworkout.uicewek.homecewek.HomeFragmentCewek"
+        android:label="HomeFragmentCewek">
+        <action
+            android:id="@+id/action_homeFragmentCewek_to_menuLatihanCewekActivity"
+            app:destination="@id/menuLatihanCewekActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/menuLatihanCewekActivity"
+        android:name="org.d3if2029.homeworkout.uicewek.menulatihancewek.MenuLatihanCewekActivity"
+        android:label="activity_menu_latihan_cewek"
+        tools:layout="@layout/activity_menu_latihan_cewek" />
 </navigation>

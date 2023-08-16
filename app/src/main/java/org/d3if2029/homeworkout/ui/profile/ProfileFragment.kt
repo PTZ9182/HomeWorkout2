@@ -45,6 +45,9 @@ class ProfileFragment : Fragment() {
         _binding?.masukkan?.setOnClickListener{
             it.findNavController().navigate(R.id.action_profileFragment_to_nutrisiActivity)
         }
+        _binding?.pilihgender?.setOnClickListener{
+            it.findNavController().navigate(R.id.action_profileFragment_to_homeFragmentCewek)
+        }
 
         return binding.root
     }
