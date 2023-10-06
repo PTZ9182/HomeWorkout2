@@ -8,8 +8,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.children
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.NavController
 import androidx.navigation.NavOptions
+import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.NavigationUI
+import androidx.navigation.ui.NavigationUI.setupWithNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.chip.Chip
 import org.d3if2029.homeworkout.R
@@ -29,7 +33,10 @@ class HomeFragment : Fragment() {
         3 to MenuLatihan3Activity::class.java,
         4 to MenuLatihan4Activity::class.java,
         5 to MenuLatihan5Activity::class.java,
-        6 to MenuLatihan6Activity::class.java
+        6 to MenuLatihan6Activity::class.java,
+        7 to MenuLatihan7Activity::class.java,
+        8 to MenuLatihan8Activity::class.java,
+        9 to MenuLatihan9Activity::class.java
         // Tambahkan pemetaan lain sesuai kebutuhan
     )
 
@@ -40,7 +47,6 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
-        // Inflate the layout for this fragment
         return binding.root
     }
 

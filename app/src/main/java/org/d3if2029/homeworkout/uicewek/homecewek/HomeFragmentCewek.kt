@@ -8,10 +8,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.children
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.NavController
 import androidx.navigation.NavOptions
+import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.NavigationUI
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.chip.Chip
+import org.d3if2029.homeworkout.R
 import org.d3if2029.homeworkout.R.id.menuLatihanCewekActivity
 import org.d3if2029.homeworkout.adaptercewek.DataLatihanAdapterCewek
 import org.d3if2029.homeworkout.databinding.FragmentHomeCewekBinding

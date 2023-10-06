@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import org.d3if2029.homeworkout.MainActivity
+import org.d3if2029.homeworkout.MainActivity2
 import org.d3if2029.homeworkout.R
 import org.d3if2029.homeworkout.entity.Sqlite
 import org.d3if2029.homeworkout.entity.SqliteOpenHelper
@@ -19,7 +19,7 @@ class SelesaiLatihanActivity : AppCompatActivity() {
 
         val button : Button = findViewById(R.id.button_selesai)
         button.setOnClickListener{
-            val intent = Intent(this@SelesaiLatihanActivity, MainActivity::class.java)
+            val intent = Intent(this@SelesaiLatihanActivity, MainActivity2::class.java)
             startActivity(intent)
         }
         addDateToDB()
@@ -35,7 +35,7 @@ class SelesaiLatihanActivity : AppCompatActivity() {
         dbHandler.addDate(date)
     }
     private fun addKalori() {
-        val kaloriValues = listOf("200", "250", "300")
+        val kaloriValues = listOf("200")
         val secureRandom = SecureRandom()
 
         val randomKalori = kaloriValues[secureRandom.nextInt(kaloriValues.size)]

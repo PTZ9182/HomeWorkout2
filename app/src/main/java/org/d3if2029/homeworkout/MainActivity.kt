@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         navController= Navigation.findNavController(this,R.id.nav_host_fragment)
-        setupWithNavController(binding.bottomNavigationView,navController)
 
         notificationHelper = NotificationHelper(this)
         notificationHelper.createNotificationChannel()

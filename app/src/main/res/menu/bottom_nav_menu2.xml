@@ -2,15 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/homeFragmentCewek"
+        android:id="@+id/homeFragment3"
         android:icon="@drawable/ic_baseline_home_24"
         android:title="Menu" />
     <item
-        android:id="@+id/statistikCewek"
+        android:id="@+id/statistikCewekFragment"
         android:icon="@drawable/ic_baseline_analytics_24"
         android:title="Statistik" />
     <item
-        android:id="@+id/profileFragmentCewek"
+        android:id="@+id/profileCewekFragment2"
         android:icon="@drawable/ic_baseline_settings_24"
         android:title="Pengaturan" />
 

@@ -39,83 +39,117 @@ class NutrisiActivity : AppCompatActivity() {
     // Method untuk meng-generate data makanan contoh
     private fun generateFoodData(): List<Food> {
         val foodList = arrayListOf<Food>()
-        foodList.add(Food("Daging Ayam", R.drawable.ayam_rebus, "Daging ayam memiliki beberapa manfaat penting untuk workout atau latihan fisik karena kaya akan nutrisi yang mendukung pertumbuhan otot dan pemulihan tubuh setelah berolahraga. Berikut adalah deskripsi singkat tentang manfaat daging ayam untuk workout:\n" +
+        foodList.add(Food("Daging Ayam", R.drawable.ayam_rebus, "Daging ayam adalah sumber protein yang baik untuk workout atau latihan fisik karena memiliki beberapa manfaat utama:\n" +
                 "\n" +
-                "Protein tinggi: Daging ayam mengandung protein tinggi, yang merupakan nutrisi kunci untuk membangun dan memperbaiki otot. Protein adalah bahan bangunan otot, dan ketika Anda berlatih, otot Anda akan mengalami kerusakan ringan yang memerlukan protein untuk memperbaikinya dan membantu otot tumbuh lebih besar dan lebih kuat.\n" +
+                "Sumber Protein Berkualitas Tinggi: Daging ayam kaya akan protein berkualitas tinggi yang penting untuk membangun dan memperbaiki otot setelah latihan.\n" +
                 "\n" +
-                "Asam amino esensial: Daging ayam mengandung semua sembilan asam amino esensial, yang diperlukan tubuh karena tidak dapat diproduksi sendiri. Asam amino ini berperan penting dalam proses pemulihan dan regenerasi otot setelah latihan.\n" +
+                "Rendah Lemak Jenuh: Daging ayam cenderung rendah lemak jenuh, sehingga cocok untuk mendukung program diet yang sehat dan pembentukan otot.\n" +
                 "\n" +
-                "Rendah lemak jenuh: Daging ayam, terutama bagian daging tanpa kulit, memiliki kandungan lemak jenuh yang rendah. Ini bermanfaat karena lemak jenuh berlebih dapat mempengaruhi performa olahraga dan kesehatan jantung.\n" +
+                "Kaya akan Nutrisi: Selain protein, daging ayam mengandung berbagai nutrisi seperti zat besi, zinc, dan vitamin B yang mendukung kesehatan tubuh secara keseluruhan.\n" +
                 "\n" +
-                "Kaya zat besi: Daging ayam mengandung zat besi, yang membantu tubuh membawa oksigen ke sel-sel otot. Oksigen yang cukup dalam otot penting untuk meningkatkan daya tahan selama latihan.\n" +
+                "Mudah Dimasak: Daging ayam dapat dimasak dengan berbagai cara, seperti dipanggang, direbus, atau digrill, sehingga mudah diintegrasikan dalam menu makanan sehari-hari.\n" +
                 "\n" +
-                "Sumber energi: Daging ayam mengandung vitamin B kompleks, seperti vitamin B6 dan niacin, yang membantu tubuh mengubah makanan menjadi energi. Energi yang cukup diperlukan untuk menjalankan latihan dengan optimal.\n" +
+                "Cara penggunaannya dalam diet workout singkat:\n" +
                 "\n" +
-                "Membantu penurunan berat badan: Daging ayam rendah kalori dan tinggi protein, sehingga dapat membantu dalam program penurunan berat badan. Protein membantu mengurangi rasa lapar dan meningkatkan rasa kenyang, sehingga Anda cenderung mengonsumsi lebih sedikit kalori secara keseluruhan.\n" +
+                "Protein Post-Workout: Setelah latihan, konsumsi daging ayam sebagai bagian dari makanan pos-latihan Anda untuk membantu pemulihan otot dan pertumbuhan.\n" +
                 "\n" +
-                "Meningkatkan massa otot: Daging ayam adalah sumber protein hewani yang baik, dan konsumsi protein yang memadai berperan penting dalam meningkatkan massa otot. Semakin banyak otot yang Anda miliki, semakin tinggi pula metabolisme tubuh Anda, yang dapat membantu dalam membakar lemak lebih efisien.\n" +
+                "Pilih Bagian Tanpa Kulit: Hindari bagian kulit karena mengandung lebih banyak lemak. Pilih daging ayam tanpa kulit untuk asupan protein yang lebih sehat.\n" +
                 "\n" +
-                "Namun, penting untuk diingat bahwa manfaat daging ayam untuk workout akan lebih efektif jika diimbangi dengan latihan yang teratur, pola makan yang seimbang, istirahat yang cukup, dan gaya hidup sehat secara keseluruhan. Selalu konsultasikan dengan ahli gizi atau pelatih fisik jika Anda memiliki pertanyaan lebih lanjut tentang diet dan program latihan yang sesuai untuk Anda."))
-        foodList.add(Food("Daging Sapi", R.drawable.daging_sapi, "Daging sapi memiliki beberapa manfaat penting untuk workout atau latihan fisik karena kaya akan nutrisi yang mendukung pertumbuhan otot, pemulihan tubuh, dan kinerja olahraga secara keseluruhan. Berikut adalah deskripsi singkat tentang manfaat daging sapi untuk workout:\n" +
+                "Kombinasikan dengan Karbohidrat dan Sayuran: Untuk makanan seimbang, sajikan daging ayam dengan karbohidrat kompleks seperti nasi merah atau quinoa, serta sayuran segar.\n" +
                 "\n" +
-                "1. Protein tinggi: Daging sapi adalah sumber protein hewani yang kaya, yang sangat penting untuk membangun dan memperbaiki otot setelah latihan. Protein berfungsi sebagai bahan bangunan otot dan membantu dalam proses pemulihan otot setelah aktivitas fisik yang intens.\n" +
+                "Porsi yang Seimbang: Pastikan untuk mengontrol porsi Anda sesuai dengan kebutuhan tubuh dan tujuan workout Anda."))
+        foodList.add(Food("Daging Sapi", R.drawable.daging_sapi, "Daging sapi juga memiliki sejumlah manfaat bagi program workout atau latihan fisik. Berikut adalah beberapa manfaatnya dan cara penggunaannya secara singkat:\n" +
                 "\n" +
-                "2. Asam amino esensial: Daging sapi mengandung semua sembilan asam amino esensial yang diperlukan oleh tubuh. Asam amino ini berperan penting dalam sintesis protein, pemulihan otot, dan menjaga kesehatan jaringan tubuh.\n" +
+                "Manfaat Daging Sapi untuk Workout:\n" +
                 "\n" +
-                "3. Zat besi: Daging sapi mengandung zat besi, yang membantu dalam membawa oksigen ke sel-sel otot. Oksigen yang cukup dalam otot memungkinkan Anda memiliki daya tahan yang lebih baik selama latihan dan membantu mencegah kelelahan berlebihan.\n" +
+                "Sumber Protein dan Zat Besi: Daging sapi mengandung protein berkualitas tinggi yang membantu dalam pemulihan dan pembentukan otot, serta zat besi yang mendukung transportasi oksigen ke sel-sel tubuh.\n" +
                 "\n" +
-                "4. Kreatin: Daging sapi adalah sumber alami kreatin, senyawa yang menyediakan energi cepat untuk aktivitas berat dan intens, seperti latihan beban. Kreatin dapat meningkatkan performa selama latihan jangka pendek dan membantu meningkatkan massa otot.\n" +
+                "Kaya Amino Asam: Daging sapi kaya akan asam amino penting seperti leusin, isoleusin, dan valin, yang mendukung sintesis protein otot.\n" +
                 "\n" +
-                "5. Sumber energi: Daging sapi mengandung vitamin B kompleks, seperti vitamin B12 dan B6, yang membantu tubuh mengubah makanan menjadi energi. Energi yang cukup diperlukan untuk menjalankan latihan dengan optimal.\n" +
+                "Sumber Kreatin: Daging sapi mengandung kreatin alami yang dapat meningkatkan daya tahan dan kinerja saat latihan berat.\n" +
                 "\n" +
-                "6. Rendah karbohidrat: Daging sapi memiliki kandungan karbohidrat yang rendah, sehingga cocok sebagai pilihan makanan bagi mereka yang mengikuti diet rendah karbohidrat atau diet tinggi protein.\n" +
+                "Penting untuk Pertumbuhan Otot: Protein dan nutrisi dalam daging sapi membantu dalam pembentukan dan pemeliharaan otot, yang penting bagi mereka yang ingin membangun massa otot.\n" +
                 "\n" +
-                "Penting untuk mencatat bahwa manfaat daging sapi untuk workout akan lebih efektif jika diimbangi dengan latihan yang teratur, asupan nutrisi yang seimbang, dan istirahat yang cukup. Selalu konsultasikan dengan ahli gizi atau pelatih fisik jika Anda memiliki pertanyaan lebih lanjut tentang diet dan program latihan yang sesuai untuk Anda."))
-        foodList.add(Food("Telur", R.drawable.telur_rebus, "Telur adalah sumber makanan yang sangat baik dan bermanfaat untuk workout atau latihan fisik. Berikut adalah deskripsi singkat tentang manfaat telur untuk workout:\n" +
+                "Cara Penggunaan Daging Sapi untuk Workout secara Singkat:\n" +
                 "\n" +
-                "1. Protein berkualitas tinggi: Telur adalah salah satu sumber protein berkualitas tinggi yang alami dan lengkap. Protein ini mengandung semua asam amino esensial yang diperlukan oleh tubuh untuk membangun dan memperbaiki otot setelah berolahraga. Konsumsi telur dapat membantu meningkatkan sintesis protein dan pemulihan otot setelah latihan.\n" +
+                "Pilih Potongan yang Rendah Lemak: Pilih potongan daging sapi yang rendah lemak seperti sirloin, tenderloin, atau daging tanpa lemak untuk menghindari kelebihan kalori.\n" +
                 "\n" +
-                "2. Kandungan lemak sehat: Telur mengandung lemak sehat, terutama dalam kuning telur. Lemak sehat penting untuk penyerapan vitamin dan mineral, termasuk vitamin A, D, E, dan K. Lemak juga berperan dalam membantu tubuh menggunakan energi dengan efisien selama aktivitas fisik.\n" +
+                "Panggang atau Grill: Memasak daging sapi dengan metode pemanggangan atau penggorengan dengan sedikit minyak adalah cara sehat untuk memasaknya.\n" +
                 "\n" +
-                "3. Vitamin dan mineral esensial: Telur mengandung sejumlah besar vitamin dan mineral penting, termasuk vitamin B kompleks (B2, B5, B12), vitamin D, selenium, zat besi, fosfor, dan zink. Vitamin dan mineral ini berkontribusi pada fungsi otot, kesehatan tulang, dan dukungan sistem kekebalan tubuh, yang penting untuk menjaga performa olahraga yang optimal.\n" +
+                "Kombinasikan dengan Karbohidrat: Sajikan dengan karbohidrat kompleks seperti kentang atau beras merah untuk memberikan energi tambahan.\n" +
                 "\n" +
-                "4. Kolin: Telur juga merupakan salah satu sumber terbaik kolin, yaitu nutrisi yang penting untuk kesehatan otak dan fungsi saraf. Kolin membantu meningkatkan neurotransmitter yang berperan dalam konsentrasi dan kognisi, sehingga dapat membantu fokus dan kinerja saat berlatih.\n" +
+                "Perhatikan Porsi: Kontrol porsi Anda untuk menghindari asupan kalori berlebihan. Porsi yang seimbang adalah kunci.\n" +
                 "\n" +
-                "5. Sumber energi: Telur menyediakan energi dalam bentuk kalori yang diperlukan untuk menjalankan latihan dan mempertahankan aktivitas fisik. Telur merupakan makanan yang sederhana dan mudah dicerna, sehingga memberikan sumber energi yang cepat dan efisien.\n" +
+                "Sertakan Sayuran: Tambahkan sayuran hijau atau berwarna-warni untuk memastikan asupan nutrisi yang seimbang."))
+        foodList.add(Food("Telur", R.drawable.telur_rebus, "Telur adalah sumber nutrisi yang baik untuk mendukung program workout atau latihan fisik dengan berbagai manfaat, dan berikut adalah beberapa manfaatnya serta cara penggunaannya secara singkat:\n" +
                 "\n" +
-                "Dalam rangka mendapatkan manfaat maksimal dari telur untuk workout, sebaiknya dikonsumsi dalam kombinasi dengan diet seimbang dan gaya hidup aktif. Penting juga untuk mengonsumsi telur dengan metode masak yang sehat, seperti merebus, mengukus, atau membuat telur mata sapi, untuk menjaga kandungan nutrisinya. Jangan ragu untuk berkonsultasi dengan ahli gizi jika Anda memiliki pertanyaan lebih lanjut tentang bagaimana mengintegrasikan telur ke dalam rencana makan sehat Anda."))
-        foodList.add(Food("Buah", R.drawable.buah, "Buah-buahan adalah sumber nutrisi yang sangat berharga untuk workout atau latihan fisik. Berikut adalah deskripsi singkat tentang manfaat buah untuk workout:\n" +
+                "Manfaat Telur untuk Workout:\n" +
                 "\n" +
-                "1. Sumber energi: Buah-buahan mengandung karbohidrat, yang merupakan sumber utama energi untuk tubuh. Karbohidrat di dalam buah memberikan energi yang dibutuhkan untuk latihan, membantu meningkatkan daya tahan selama aktivitas fisik, dan mengisi kembali glikogen yang hilang selama latihan.\n" +
+                "Sumber Protein Berkualitas Tinggi: Telur mengandung protein berkualitas tinggi yang penting untuk pemulihan dan pembentukan otot.\n" +
                 "\n" +
-                "2. Vitamin dan mineral: Buah-buahan kaya akan berbagai vitamin dan mineral esensial, seperti vitamin C, vitamin A, kalium, dan magnesium. Vitamin dan mineral ini berperan penting dalam mendukung kesehatan tubuh secara keseluruhan dan membantu menjaga kinerja optimal saat berolahraga.\n" +
+                "Kaya Amino Asam: Telur mengandung berbagai asam amino esensial yang mendukung pertumbuhan otot dan pemulihan tubuh setelah latihan.\n" +
                 "\n" +
-                "3. Serat: Buah-buahan mengandung serat makanan, yang penting untuk pencernaan yang sehat. Serat membantu mengatur penyerapan nutrisi, menjaga perut kenyang lebih lama, dan mendukung metabolisme tubuh.\n" +
+                "Kolin: Kandungan kolin dalam telur membantu dalam fungsi otak dan sistem saraf, yang dapat meningkatkan fokus dan konsentrasi selama latihan.\n" +
                 "\n" +
-                "4. Antioksidan: Banyak buah-buahan mengandung antioksidan, seperti vitamin C dan vitamin E, yang membantu melindungi sel-sel tubuh dari kerusakan akibat radikal bebas. Latihan fisik yang intens dapat menyebabkan stres oksidatif, dan antioksidan dalam buah membantu mengurangi efek negatifnya.\n" +
+                "Vitamin dan Mineral: Telur juga mengandung vitamin dan mineral seperti vitamin D, B kompleks, seng, dan selenium yang mendukung kesehatan umum dan sistem kekebalan tubuh.\n" +
                 "\n" +
-                "5. Hidrasi: Sebagian besar buah-buahan memiliki kandungan air yang tinggi, membantu menjaga tubuh tetap terhidrasi selama workout. Hidrasi yang adekuat sangat penting untuk menjaga kinerja olahraga yang baik dan mencegah risiko dehidrasi.\n" +
+                "Cara Penggunaan Telur untuk Workout secara Singkat:\n" +
                 "\n" +
-                "6. Snack sehat: Buah-buahan adalah pilihan snack yang sehat dan mudah untuk dibawa ke mana pun. Makan buah sebelum atau setelah latihan dapat memberikan energi cepat dan membantu pemulihan otot.\n" +
+                "Konsumsi Telur Sebagai Bagian dari Sarapan: Telur bisa dimasak menjadi berbagai hidangan sarapan seperti telur dadar atau rebus. Ini memberikan asupan protein yang baik untuk memulai hari dan memberikan energi untuk latihan.\n" +
                 "\n" +
-                "Penting untuk mencatat bahwa buah-buahan harus menjadi bagian dari diet seimbang dan variasi yang mencakup berbagai macam nutrisi. Konsumsi buah secara teratur dapat memberikan manfaat besar bagi tubuh Anda dan mendukung kinerja Anda dalam latihan atau olahraga apa pun. Jangan lupa untuk memadukan buah dengan sumber protein dan sumber karbohidrat lainnya untuk mendapatkan manfaat yang lebih maksimal. Selalu konsultasikan dengan ahli gizi jika Anda memiliki pertanyaan lebih lanjut tentang diet yang sesuai untuk tujuan dan kebutuhan olahraga Anda."))
-        foodList.add(Food("Sayuran", R.drawable.sayuran, "Sayuran merupakan bagian penting dari diet untuk workout atau latihan fisik karena kaya akan nutrisi dan manfaat kesehatan. Berikut adalah deskripsi singkat tentang manfaat sayuran untuk workout:\n" +
+                "Gabungkan dengan Karbohidrat: Sertakan karbohidrat seperti roti gandum atau oatmeal untuk makanan yang seimbang sebelum latihan.\n" +
                 "\n" +
-                "1. Kandungan serat: Sayuran mengandung serat makanan yang penting untuk pencernaan yang sehat. Serat membantu menjaga perut kenyang lebih lama, mengatur penyerapan nutrisi, dan membantu menjaga berat badan yang sehat.\n" +
+                "Telur Rebus sebagai Camilan: Telur rebus adalah camilan yang sehat dan praktis untuk mendapatkan protein tambahan selama hari, terutama jika Anda memiliki latihan sore atau malam.\n" +
                 "\n" +
-                "2. Vitamin dan mineral: Sayuran kaya akan berbagai vitamin dan mineral, seperti vitamin C, vitamin A, vitamin K, folat, kalium, dan magnesium. Vitamin dan mineral ini mendukung kesehatan tulang, fungsi otot, sistem kekebalan tubuh, dan proses pemulihan tubuh setelah berlatih.\n" +
+                "Telur sebagai Bahan Makanan: Anda juga dapat mengintegrasikan telur ke dalam hidangan seperti salad, sandwich, atau wrap untuk meningkatkan nilai gizinya.\n" +
                 "\n" +
-                "3. Antioksidan: Banyak sayuran mengandung senyawa antioksidan, seperti beta-karoten, lutein, dan likopen, yang membantu melawan kerusakan radikal bebas dan menjaga kesehatan sel-sel tubuh. Latihan fisik yang intens dapat menyebabkan stres oksidatif, dan antioksidan dalam sayuran membantu mengurangi dampak negatifnya.\n" +
+                "Kendalikan Konsumsi Kuning Telur: Kuning telur mengandung lemak dan kolesterol lebih tinggi, jadi konsumsilah dengan bijak sesuai dengan kebutuhan kalori dan lemak Anda."))
+        foodList.add(Food("Buah", R.drawable.buah, "Buah-buahan adalah sumber nutrisi penting yang dapat memberikan banyak manfaat saat digunakan dalam program workout. Berikut adalah beberapa manfaat buah-buahan dan cara penggunaannya secara singkat:\n" +
                 "\n" +
-                "4. Hidrasi: Beberapa sayuran memiliki kandungan air yang tinggi, seperti mentimun dan selada, yang membantu menjaga tubuh terhidrasi selama workout. Hidrasi yang baik sangat penting untuk menjaga kinerja olahraga yang optimal dan mencegah dehidrasi.\n" +
+                "Manfaat Buah-buahan untuk Workout:\n" +
                 "\n" +
-                "5. Kalori rendah: Banyak sayuran memiliki kandungan kalori yang rendah, membuatnya menjadi pilihan makanan yang ideal untuk menjaga berat badan atau program penurunan berat badan yang sehat.\n" +
+                "Sumber Energi: Buah-buahan mengandung karbohidrat yang memberikan energi yang diperlukan untuk latihan dan membantu mencegah kelelahan.\n" +
                 "\n" +
-                "6. Penyedia energi: Meskipun sayuran tidak mengandung karbohidrat dalam jumlah besar seperti biji-bijian atau buah-buahan, mereka tetap memberikan energi penting yang diperlukan untuk mendukung aktivitas fisik.\n" +
+                "Serat yang Baik: Serat dalam buah-buahan mendukung pencernaan yang sehat dan menjaga perasaan kenyang selama latihan.\n" +
                 "\n" +
-                "7. Snack sehat: Sayuran bisa dijadikan pilihan snack sehat yang mudah dibawa dan dikonsumsi sebelum atau sesudah latihan, memberikan nutrisi dan energi yang diperlukan untuk performa olahraga yang baik.\n" +
+                "Vitamin dan Antioksidan: Buah-buahan kaya akan vitamin, mineral, dan antioksidan yang mendukung sistem kekebalan tubuh dan pemulihan setelah latihan.\n" +
                 "\n" +
-                "Dalam rangka mendapatkan manfaat maksimal dari sayuran untuk workout, pastikan untuk mengonsumsi beragam jenis sayuran dengan berbagai warna dan varietas, karena setiap jenis sayuran memberikan manfaat yang unik bagi tubuh Anda. Integrasikan sayuran dalam rencana makan sehat Anda, dan jangan ragu untuk berkonsultasi dengan ahli gizi jika Anda memiliki pertanyaan lebih lanjut tentang diet yang sesuai dengan tujuan dan kebutuhan olahraga Anda."))
+                "Hidrasi: Buah-buahan yang mengandung banyak air, seperti semangka, dapat membantu menjaga hidrasi selama latihan.\n" +
+                "\n" +
+                "Cara Penggunaan Buah-buahan untuk Workout secara Singkat:\n" +
+                "\n" +
+                "Konsumsi Sebelum Latihan: Makan buah-buahan seperti pisang atau apel sekitar 30-60 menit sebelum latihan untuk memberikan energi cepat.\n" +
+                "\n" +
+                "Setelah Latihan: Buah-buahan bisa menjadi pilihan camilan pasca-latihan yang sehat untuk memulihkan glikogen otot dan menyediakan nutrisi yang diperlukan.\n" +
+                "\n" +
+                "Dalam Smoothie: Buah-buahan bisa dicampur dalam smoothie dengan protein (misalnya, yogurt atau whey protein) untuk makanan setelah latihan yang lengkap.\n" +
+                "\n" +
+                "Cemilan Sehat: Buah-buahan seperti buah-buahan berry atau potongan buah segar bisa dijadikan cemilan sehat sepanjang hari.\n" +
+                "\n" +
+                "Perhatikan Asupan Gula: Meskipun buah-buahan mengandung gula alami, tetaplah membatasi konsumsi dalam jumlah berlebihan untuk menghindari asupan kalori berlebihan."))
+        foodList.add(Food("Sayuran", R.drawable.sayuran, "Sayuran adalah komponen penting dalam diet yang dapat memberikan manfaat berikut saat digunakan dalam program workout:\n" +
+                "\n" +
+                "Manfaat Sayuran untuk Workout:\n" +
+                "\n" +
+                "Serat Tinggi: Sayuran mengandung serat tinggi yang membantu menjaga pencernaan yang sehat, memperlambat penyerapan karbohidrat, dan memberikan perasaan kenyang.\n" +
+                "\n" +
+                "Vitamin dan Mineral: Sayuran kaya akan berbagai vitamin dan mineral seperti vitamin C, K, kalium, dan magnesium yang mendukung kesehatan tulang, otot, dan sistem kekebalan tubuh.\n" +
+                "\n" +
+                "Antioksidan: Antioksidan dalam sayuran membantu melindungi sel-sel tubuh dari kerusakan oksidatif yang dapat terjadi selama latihan berat.\n" +
+                "\n" +
+                "Hidrasi: Sayuran seperti mentimun dan selada mengandung banyak air, membantu menjaga hidrasi selama latihan.\n" +
+                "\n" +
+                "Cara Penggunaan Sayuran untuk Workout secara Singkat:\n" +
+                "\n" +
+                "Konsumsi dalam Setiap Makan: Sertakan sayuran dalam setiap hidangan makanan Anda, baik sebagai hidangan utama atau sebagai pelengkap.\n" +
+                "\n" +
+                "Sayuran Sebagai Camilan: Sayuran seperti wortel atau brokoli dapat diiris dan dijadikan camilan sehat di antara waktu makan.\n" +
+                "\n" +
+                "Tambahkan ke Smoothie: Beberapa sayuran, seperti bayam atau kale, dapat dicampur dalam smoothie untuk asupan nutrisi yang lebih tinggi.\n" +
+                "\n" +
+                "Salad Sebagai Hidangan Utama: Sajikan salad yang kaya sayuran sebagai hidangan utama dengan tambahan protein seperti daging ayam atau ikan.\n" +
+                "\n" +
+                "Variasi Warna: Cobalah berbagai jenis sayuran berwarna-warni untuk mendapatkan manfaat nutrisi yang beragam."))
         return foodList
     }
 

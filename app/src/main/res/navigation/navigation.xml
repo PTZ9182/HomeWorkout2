@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/praloginFragment">
 
     <fragment
         android:id="@+id/homeFragment"
@@ -26,8 +26,8 @@
             android:id="@+id/action_profileFragment_to_nutrisiActivity"
             app:destination="@id/nutrisiActivity" />
         <action
-            android:id="@+id/action_profileFragment_to_homeFragmentCewek"
-            app:destination="@id/homeFragmentCewek" />
+            android:id="@+id/action_profileFragment_to_mainActivity3"
+            app:destination="@id/mainActivity3" />
     </fragment>
 
     <activity
@@ -66,4 +66,30 @@
         android:name="org.d3if2029.homeworkout.uicewek.menulatihancewek.MenuLatihanCewekActivity"
         android:label="activity_menu_latihan_cewek"
         tools:layout="@layout/activity_menu_latihan_cewek" />
+    <fragment
+        android:id="@+id/praloginFragment"
+        android:name="org.d3if2029.homeworkout.ui.splashscreen.PraloginFragment"
+        android:label="fragment_pralogin"
+        tools:layout="@layout/fragment_pralogin" >
+        <action
+            android:id="@+id/action_praloginFragment_to_mainActivity3"
+            app:destination="@id/mainActivity3" />
+        <action
+            android:id="@+id/action_praloginFragment_to_mainActivity2"
+            app:destination="@id/mainActivity2" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="org.d3if2029.homeworkout.MainActivity"
+        android:label="MainActivity" />
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="org.d3if2029.homeworkout.MainActivity2"
+        android:label="activity_main2"
+        tools:layout="@layout/activity_main2" />
+    <activity
+        android:id="@+id/mainActivity3"
+        android:name="org.d3if2029.homeworkout.MainActivity3"
+        android:label="activity_main3"
+        tools:layout="@layout/activity_main3" />
 </navigation>

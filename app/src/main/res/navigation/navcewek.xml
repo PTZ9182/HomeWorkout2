@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navcewek"
+    app:startDestination="@id/homeFragment3">
+    <fragment
+        android:id="@+id/homeFragment3"
+        android:name="org.d3if2029.homeworkout.uicewek.homecewek.HomeFragmentCewek"
+        android:label="fragment_home_cewek"
+        tools:layout="@layout/fragment_home_cewek" />
+    <fragment
+        android:id="@+id/profileCewekFragment2"
+        android:name="org.d3if2029.homeworkout.uicewek.profilecewek.ProfileCewekFragment"
+        android:label="fragment_profile_cewek"
+        tools:layout="@layout/fragment_profile_cewek" >
+        <action
+            android:id="@+id/action_profileCewekFragment2_to_BMIActivity3"
+            app:destination="@id/BMIActivity3" />
+        <action
+            android:id="@+id/action_profileCewekFragment2_to_mainActivity22"
+            app:destination="@id/mainActivity22" />
+        <action
+            android:id="@+id/action_profileCewekFragment2_to_nutrisiActivity3"
+            app:destination="@id/nutrisiActivity3" />
+    </fragment>
+    <activity
+        android:id="@+id/BMIActivity3"
+        android:name="org.d3if2029.homeworkout.ui.profile.BMIActivity"
+        android:label="activity_bmi"
+        tools:layout="@layout/activity_bmi" />
+    <activity
+        android:id="@+id/mainActivity22"
+        android:name="org.d3if2029.homeworkout.MainActivity2"
+        android:label="activity_main2"
+        tools:layout="@layout/activity_main2" />
+    <activity
+        android:id="@+id/nutrisiActivity3"
+        android:name="org.d3if2029.homeworkout.ui.profile.NutrisiActivity"
+        android:label="activity_nutrisi"
+        tools:layout="@layout/activity_nutrisi" />
+    <fragment
+        android:id="@+id/statistikCewekFragment"
+        android:name="org.d3if2029.homeworkout.uicewek.tanggaldanstatistikcewek.StatistikCewekFragment"
+        android:label="fragment_statistik_cewek"
+        tools:layout="@layout/fragment_statistik_cewek" />
+</navigation>

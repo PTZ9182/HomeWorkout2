@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.d3if2029.homeworkout" >
+    package="org.d3if2029.homeworkout">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -15,12 +15,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeWorkout"
         tools:remove="android:appComponentFactory"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.HomeWorkout.NoActionBar" />
         <activity
             android:name=".uicewek.homecewek.HomeFragmentCewek"
             android:label="Home Fragment Cewek"
-            tools:ignore="Instantiatable">
-        </activity>
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".ui.profile.FoodDetailActivity"
             android:exported="false" />
@@ -30,6 +37,10 @@
         <activity
             android:name=".ui.menulatihan.SelesaiLatihanActivity"
             android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.SelesaiLatihanCewekActivity"
+            android:exported="false" />
+
 
         <receiver
             android:name=".NotificationReceiver"
@@ -53,6 +64,15 @@
             android:exported="false" />
         <activity
             android:name=".ui.menulatihan.MenuLatihan6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.MenuLatihan7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.MenuLatihan8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.MenuLatihan9Activity"
             android:exported="false" />
         <activity
             android:name=".uicewek.menulatihancewek.MenuLatihanCewekActivity"
@@ -117,7 +137,7 @@
         <activity
             android:name=".ui.splashscreen.SplasScreenActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

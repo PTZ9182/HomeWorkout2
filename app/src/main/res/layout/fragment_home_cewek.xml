@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".uicewek.homecewek.HomeFragmentCewek">
 
 
     <com.google.android.material.appbar.AppBarLayout
@@ -120,6 +121,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layout_chip"
         tools:listitem="@layout/item_jenis_latihan" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -39,14 +39,14 @@ class ProfileFragment : Fragment() {
         }
 
         _binding?.pageBmi?.setOnClickListener{
-            it.findNavController().navigate(R.id.action_profileFragment_to_BMIActivity)
+            it.findNavController().navigate(R.id.action_profileFragment2_to_BMIActivity2)
         }
 
         _binding?.masukkan?.setOnClickListener{
-            it.findNavController().navigate(R.id.action_profileFragment_to_nutrisiActivity)
+            it.findNavController().navigate(R.id.action_profileFragment2_to_nutrisiActivity2)
         }
         _binding?.pilihgender?.setOnClickListener{
-            it.findNavController().navigate(R.id.action_profileFragment_to_homeFragmentCewek)
+            it.findNavController().navigate(R.id.action_profileFragment2_to_mainActivity32)
         }
 
         return binding.root
