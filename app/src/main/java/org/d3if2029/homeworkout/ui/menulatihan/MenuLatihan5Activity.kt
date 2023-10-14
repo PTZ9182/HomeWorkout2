@@ -29,6 +29,7 @@ class MenuLatihan5Activity : AppCompatActivity() {
         binding.buttonSimpanDataForm.setOnClickListener {
             val intent = Intent(this@MenuLatihan5Activity, Exercise2Activity::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }

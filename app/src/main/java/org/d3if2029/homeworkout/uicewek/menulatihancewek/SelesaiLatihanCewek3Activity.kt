@@ -12,14 +12,14 @@ import java.security.SecureRandom
 import java.text.SimpleDateFormat
 import java.util.*
 
-class SelesaiLatihanCewekActivity : AppCompatActivity() {
+class SelesaiLatihanCewek3Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_selesai_latihan_cewek)
 
         val button : Button = findViewById(R.id.button_selesai)
         button.setOnClickListener{
-            val intent = Intent(this@SelesaiLatihanCewekActivity, MainActivity3::class.java)
+            val intent = Intent(this@SelesaiLatihanCewek3Activity, MainActivity3::class.java)
             startActivity(intent)
             finish()
         }
@@ -36,7 +36,7 @@ class SelesaiLatihanCewekActivity : AppCompatActivity() {
         dbHandler.addDate(date)
     }
     private fun addKalori() {
-        val kaloriValues = listOf("300")
+        val kaloriValues = listOf("200")
         val secureRandom = SecureRandom()
 
         val randomKalori = kaloriValues[secureRandom.nextInt(kaloriValues.size)]

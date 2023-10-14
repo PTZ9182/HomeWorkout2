@@ -21,8 +21,9 @@ class MenuLatihan9Activity : AppCompatActivity() {
 
         // Assuming the button is inside the layout specified in ActivityMenuLatihanBinding
         binding.buttonSimpanDataForm.setOnClickListener {
-            val intent = Intent(this@MenuLatihan9Activity, ExerciseActivity::class.java)
+            val intent = Intent(this@MenuLatihan9Activity, Exercise7Activity::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }

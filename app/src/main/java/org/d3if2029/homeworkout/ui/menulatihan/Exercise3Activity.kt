@@ -123,7 +123,7 @@ class Exercise3Activity : AppCompatActivity(), TextToSpeech.OnInitListener {
                     setupRestView()
                 }else{
                     finish()
-                    val intent = Intent(this@Exercise3Activity, SelesaiLatihanActivity::class.java)
+                    val intent = Intent(this@Exercise3Activity, SelesaiLatihan3Activity::class.java)
                     startActivity(intent)
                 }
             }

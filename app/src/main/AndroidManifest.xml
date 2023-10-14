@@ -38,7 +38,37 @@
             android:name=".ui.menulatihan.SelesaiLatihanActivity"
             android:exported="false" />
         <activity
+            android:name=".ui.menulatihan.SelesaiLatihan2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.SelesaiLatihan3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.SelesaiLatihan4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.SelesaiLatihan5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.SelesaiLatihan6Activity"
+            android:exported="false" />
+        <activity
             android:name=".uicewek.menulatihancewek.SelesaiLatihanCewekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.SelesaiLatihanCewek2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.SelesaiLatihanCewek3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.SelesaiLatihanCewek4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.SelesaiLatihanCewek5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".uicewek.menulatihancewek.SelesaiLatihanCewek6Activity"
             android:exported="false" />
 
 
@@ -130,6 +160,15 @@
             android:exported="false" />
         <activity
             android:name=".ui.menulatihan.Exercise6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.Exercise7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.Exercise8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menulatihan.Exercise9Activity"
             android:exported="false" />
         <activity
             android:name=".ui.profile.BMIActivity"

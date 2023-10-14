@@ -124,7 +124,7 @@ class ExerciseCewekActivity4 : AppCompatActivity(), TextToSpeech.OnInitListener 
                     setupRestView()
                 }else{
                     finish()
-                    val intent = Intent(this@ExerciseCewekActivity4, SelesaiLatihanCewekActivity::class.java)
+                    val intent = Intent(this@ExerciseCewekActivity4, SelesaiLatihanCewek4Activity::class.java)
                     startActivity(intent)
                 }
             }

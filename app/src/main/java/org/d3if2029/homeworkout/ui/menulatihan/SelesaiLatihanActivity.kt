@@ -21,6 +21,7 @@ class SelesaiLatihanActivity : AppCompatActivity() {
         button.setOnClickListener{
             val intent = Intent(this@SelesaiLatihanActivity, MainActivity2::class.java)
             startActivity(intent)
+            finish()
         }
         addDateToDB()
         addKalori()
@@ -35,7 +36,7 @@ class SelesaiLatihanActivity : AppCompatActivity() {
         dbHandler.addDate(date)
     }
     private fun addKalori() {
-        val kaloriValues = listOf("200")
+        val kaloriValues = listOf("300")
         val secureRandom = SecureRandom()
 
         val randomKalori = kaloriValues[secureRandom.nextInt(kaloriValues.size)]

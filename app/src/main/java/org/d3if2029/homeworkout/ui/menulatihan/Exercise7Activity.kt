@@ -13,14 +13,14 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_exercise.*
 import kotlinx.android.synthetic.main.dialog_custom_back_confirmation.*
 import org.d3if2029.homeworkout.R
-import org.d3if2029.homeworkout.adapter.ExerciseStatus6Adapter
-import org.d3if2029.homeworkout.db.Exercises6
-import org.d3if2029.homeworkout.entity.Exercise6Model
+import org.d3if2029.homeworkout.adapter.ExerciseStatus7Adapter
+import org.d3if2029.homeworkout.db.Exercises7
+import org.d3if2029.homeworkout.entity.Exercise7Model
 import java.lang.Exception
 import java.util.*
 import kotlin.collections.ArrayList
 
-class Exercise6Activity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class Exercise7Activity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private var restTimer : CountDownTimer? = null
     private var restProgress = 0
@@ -30,13 +30,13 @@ class Exercise6Activity : AppCompatActivity(), TextToSpeech.OnInitListener {
     private var exerciseProgress = 0
     private var exerciseTime : Long = 30
 
-    private var exerciseList : ArrayList<Exercise6Model>? = null
+    private var exerciseList : ArrayList<Exercise7Model>? = null
     private var currentExercisePosition = -1
 
     private var tts : TextToSpeech? = null
     private var player : MediaPlayer? = null
 
-    private var exerciseAdapter : ExerciseStatus6Adapter? = null
+    private var exerciseAdapter : ExerciseStatus7Adapter? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,7 +55,7 @@ class Exercise6Activity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
         tts = TextToSpeech(this,this)
 
-        exerciseList = Exercises6.defaultExerciseList()
+        exerciseList = Exercises7.defaultExerciseList()
         setupRestView()
 
         setupExerciseStatusRecyclerView()
@@ -123,7 +123,7 @@ class Exercise6Activity : AppCompatActivity(), TextToSpeech.OnInitListener {
                     setupRestView()
                 }else{
                     finish()
-                    val intent = Intent(this@Exercise6Activity, SelesaiLatihan6Activity::class.java)
+                    val intent = Intent(this@Exercise7Activity, SelesaiLatihanActivity::class.java)
                     startActivity(intent)
                 }
             }
@@ -170,7 +170,7 @@ class Exercise6Activity : AppCompatActivity(), TextToSpeech.OnInitListener {
         exercise_status_rv.layoutManager = LinearLayoutManager(this,
             LinearLayoutManager.HORIZONTAL, false)
 
-        exerciseAdapter = ExerciseStatus6Adapter(exerciseList!!,this)
+        exerciseAdapter = ExerciseStatus7Adapter(exerciseList!!,this)
         exercise_status_rv.adapter = exerciseAdapter
     }
 

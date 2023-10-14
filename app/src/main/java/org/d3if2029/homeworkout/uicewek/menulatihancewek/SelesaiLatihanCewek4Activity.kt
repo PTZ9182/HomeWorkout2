@@ -12,14 +12,14 @@ import java.security.SecureRandom
 import java.text.SimpleDateFormat
 import java.util.*
 
-class SelesaiLatihanCewekActivity : AppCompatActivity() {
+class SelesaiLatihanCewek4Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_selesai_latihan_cewek)
 
         val button : Button = findViewById(R.id.button_selesai)
         button.setOnClickListener{
-            val intent = Intent(this@SelesaiLatihanCewekActivity, MainActivity3::class.java)
+            val intent = Intent(this@SelesaiLatihanCewek4Activity, MainActivity3::class.java)
             startActivity(intent)
             finish()
         }

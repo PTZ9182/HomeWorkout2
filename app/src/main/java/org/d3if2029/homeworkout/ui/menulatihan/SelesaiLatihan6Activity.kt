@@ -21,6 +21,7 @@ class SelesaiLatihan6Activity : AppCompatActivity() {
         button.setOnClickListener{
             val intent = Intent(this@SelesaiLatihan6Activity, MainActivity2::class.java)
             startActivity(intent)
+            finish()
         }
         addDateToDB()
         addKalori()
