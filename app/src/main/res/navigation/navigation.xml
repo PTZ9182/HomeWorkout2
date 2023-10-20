@@ -72,11 +72,11 @@
         android:label="fragment_pralogin"
         tools:layout="@layout/fragment_pralogin" >
         <action
-            android:id="@+id/action_praloginFragment_to_mainActivity3"
-            app:destination="@id/mainActivity3" />
+            android:id="@+id/action_praloginFragment_to_BMIAwalActivity"
+            app:destination="@id/BMIAwalActivity" />
         <action
-            android:id="@+id/action_praloginFragment_to_mainActivity2"
-            app:destination="@id/mainActivity2" />
+            android:id="@+id/action_praloginFragment_to_BMIAwalActivity2"
+            app:destination="@id/BMIAwalActivity2" />
     </fragment>
     <activity
         android:id="@+id/mainActivity"
@@ -92,4 +92,14 @@
         android:name="org.d3if2029.homeworkout.MainActivity3"
         android:label="activity_main3"
         tools:layout="@layout/activity_main3" />
+    <activity
+        android:id="@+id/BMIAwalActivity"
+        android:name="org.d3if2029.homeworkout.BMIAwalActivity"
+        android:label="activity_bmi_awal"
+        tools:layout="@layout/activity_bmi_awal" />
+    <activity
+        android:id="@+id/BMIAwalActivity2"
+        android:name="org.d3if2029.homeworkout.BMIAwalActivity2"
+        android:label="activity_bmi_awal2"
+        tools:layout="@layout/activity_bmi_awal2" />
 </navigation>

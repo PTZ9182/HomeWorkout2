@@ -15,6 +15,7 @@ class ExercisesCewek5 {
                 R.drawable.pushupcewek,
                 "a. Posisi awal : Telungkup di lantai dengan tangan ditempatkan sedikit lebih lebar dari bahu dan kaki lurus atau ditekuk.\n" +
                         " b. Teknik : Tekan tangan Anda ke lantai untuk mengangkat tubuh, pastikan tubuh lurus dari kepala ",
+                "https://youtu.be/j1DJSJpsD2c?si=sCCoiNQukcwiM-sg",
                 false,
                 false)
             exercisesList.add(PushUp)
@@ -24,6 +25,7 @@ class ExercisesCewek5 {
                 R.drawable.tricepsdipscewek,
                 "a.Posisi awal : Gunakan bangku atau kursi yang kokoh. Letakkan tangan di belakang tubuh pada kursi.\n" +
                         " b.Teknik : Turunkan tubuh dengan menekuk siku hingga lengan membentuk sudut 90 derajat, lalu dorong",
+                "https://youtu.be/j1DJSJpsD2c?si=sCCoiNQukcwiM-sg",
                 false,
                 false)
             exercisesList.add(TricepsDips)
@@ -33,6 +35,7 @@ class ExercisesCewek5 {
                 R.drawable.plankcewek,
                 "a. Posisi awal : Berpegangan pada lengan bawah dan jari kaki, tubuh dalam posisi lurus dari kepala hingga kaki.\n" +
                         "b. Teknik : Pertahankan posisi plank selama beberapa detik atau lebih lama sesuai kemampuan Anda.",
+                "https://youtu.be/j1DJSJpsD2c?si=sCCoiNQukcwiM-sg",
                 false,
                 false)
             exercisesList.add(Plank)
@@ -42,6 +45,7 @@ class ExercisesCewek5 {
                 R.drawable.supermancewek,
                 "a. Posisi awal : Berbaring tengkurap dengan tangan dan kaki menggantung bebas.\n" +
                         " b. Teknik : Angkat dada dan kaki Anda dari lantai sejauh mungkin, tahan posisi ini selama beberapa ",
+                "https://youtu.be/j1DJSJpsD2c?si=sCCoiNQukcwiM-sg",
                 false,
                 false)
             exercisesList.add(SupermanHolds)
@@ -51,6 +55,7 @@ class ExercisesCewek5 {
                 R.drawable.bicepcurlcewek,
                 "a. Posisi awal : Berdiri tegak dengan dumbbell di kedua tangan, lengan menggantung di sisi tubuh.\n" +
                         "b. Teknik : Tekuk lengan untuk mengangkat dumbbell ke arah bahu, lalu turunkan kembali dengan  ",
+                "https://youtu.be/j1DJSJpsD2c?si=sCCoiNQukcwiM-sg",
                 false,
                 false)
             exercisesList.add(BicepCurls)
@@ -60,6 +65,7 @@ class ExercisesCewek5 {
                 R.drawable.shouldercewek,
                 "a. Posisi awal : Duduk atau berdiri dengan dumbbell di kedua tangan, siku ditekuk 90 derajat.\n" +
                         " b.Teknik : Dorong dumbbell ke atas dengan tangan lurus, lalu turunkan kembali ke posisi awal.",
+                "https://youtu.be/j1DJSJpsD2c?si=sCCoiNQukcwiM-sg",
                 false,
                 false)
             exercisesList.add(ShoulderPress)
@@ -69,6 +75,7 @@ class ExercisesCewek5 {
                 R.drawable.sideleteralcewek,
                 "a. Posisi awal : Berdiri tegak dengan dumbbell di kedua tangan, lengan menggantung di sisi tubuh.\n" +
                         " b.Teknik : Angkat lengan ke samping hingga sejajar dengan bahu, lalu turunkan kembali.",
+                "https://youtu.be/j1DJSJpsD2c?si=sCCoiNQukcwiM-sg",
                 false,
                 false)
             exercisesList.add(SideLateralRaises)

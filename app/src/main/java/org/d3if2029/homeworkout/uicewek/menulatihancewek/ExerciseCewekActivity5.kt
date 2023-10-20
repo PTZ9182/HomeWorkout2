@@ -3,6 +3,7 @@ package org.d3if2029.homeworkout.uicewek.menulatihancewek
 import android.app.Dialog
 import android.content.Intent
 import android.media.MediaPlayer
+import android.net.Uri
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.speech.tts.TextToSpeech
@@ -148,6 +149,12 @@ class ExerciseCewekActivity5 : AppCompatActivity(), TextToSpeech.OnInitListener 
         image_iv.setImageResource(exerciseList!![currentExercisePosition].getImage())
         exercise_name_tv.text = exerciseList!![currentExercisePosition].getName()
         exercise_desk_tv.text = exerciseList!![currentExercisePosition].getDesk()
+    }
+
+    fun openYouTubeVideo(view: View) {
+        val videoUrl = exerciseList!![currentExercisePosition].getVideoUrl()
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(videoUrl))
+        startActivity(intent)
     }
 
     override fun onInit(status: Int) {

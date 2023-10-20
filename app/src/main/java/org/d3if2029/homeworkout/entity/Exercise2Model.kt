@@ -4,6 +4,7 @@ class Exercise2Model(private var id : Int,
                      private var name : String,
                      private var image : Int,
                      private var desk : String,
+                     private var videoUrl: String,
                      private var isCompleted : Boolean,
                      private var isSelected : Boolean) {
 
@@ -33,6 +34,10 @@ class Exercise2Model(private var id : Int,
 
     fun getDesk() : String {
         return desk
+    }
+
+    fun getVideoUrl() : String{
+        return videoUrl
     }
 
     fun getIsCompleted() : Boolean {

@@ -25,6 +25,8 @@
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout-v28/activity_bmi.xml" value="0.25" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/actavity_timer.xml" value="0.24895833333333334" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_bmi.xml" value="0.14814814814814814" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_bmi_awal.xml" value="0.17916666666666667" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_bmi_awal2.xml" value="0.17916666666666667" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_button2.xml" value="0.264" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_exercise.xml" value="0.1962962962962963" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/activity_exercise2.xml" value="0.25" />
@@ -67,8 +69,8 @@
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_pralogin.xml" value="0.1" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_profile_cewek.xml" value="0.17135416666666667" />
-        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_statistik.xml" value="0.176" />
-        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_statistik_cewek.xml" value="0.17135416666666667" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_statistik.xml" value="0.1" />
+        <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/fragment_statistik_cewek.xml" value="0.1" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/item_exercise_status.xml" value="0.1962962962962963" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/item_food.xml" value="0.25" />
         <entry key="..\:/Dicoding Pelatihan/HomeWorkout/app/src/main/res/layout/item_history_row.xml" value="0.2" />

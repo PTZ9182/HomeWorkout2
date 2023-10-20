@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -16,10 +17,14 @@ import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet
 import org.d3if2029.homeworkout.R
+import org.d3if2029.homeworkout.adapter.HistoryAdapter
 import org.d3if2029.homeworkout.adapter.HistoryAdapterCewek
 import org.d3if2029.homeworkout.databinding.FragmentStatistikCewekBinding
 import org.d3if2029.homeworkout.entity.SqliteCewek
+import org.d3if2029.homeworkout.entity.SqliteOpenHelper
 import org.d3if2029.homeworkout.entity.SqliteOpenHelperCewek
+import java.util.*
+import kotlin.collections.ArrayList
 
 class StatistikCewekFragment : Fragment() {
     private lateinit var binding: FragmentStatistikCewekBinding
@@ -27,6 +32,7 @@ class StatistikCewekFragment : Fragment() {
     private lateinit var no_data_tv: TextView
     private lateinit var lineChart: LineChart
     private lateinit var dbHelper: SqliteCewek
+    private lateinit var dbHelper2: SqliteOpenHelperCewek
 
 
     override fun onCreateView(
@@ -38,11 +44,48 @@ class StatistikCewekFragment : Fragment() {
 
         history_rv = view.findViewById(R.id.history_rv1)
         no_data_tv = view.findViewById(R.id.no_data_tv1)
+        val sevenDaysButton = view.findViewById<Button>(R.id.sevenDaysButton)
+        val thirtyDaysButton = view.findViewById<Button>(R.id.thirtyDaysButton)
+
+        sevenDaysButton.setOnClickListener {
+            // Filter data untuk 7 hari
+            val filteredData = filterData(7)
+            showData(filteredData)
+        }
+
+        thirtyDaysButton.setOnClickListener {
+            // Filter data untuk 30 hari
+            val filteredData = filterData(30)
+            showData(filteredData)
+        }
 
         getAllCompletedDates()
+        dbHelper2 = SqliteOpenHelperCewek(requireContext(), null)
 
         lineChart = binding.chart
         return view
+    }
+    private fun showData(filteredData: Pair<List<Entry>, List<String>>) {
+        // Tampilkan data yang telah difilter di grafik garis
+        showLineChart(filteredData.first)
+
+        // Tampilkan data yang telah difilter di daftar history tanggal
+        val filteredHistoryData = filteredData.second
+        if (::no_data_tv.isInitialized && ::history_rv.isInitialized) {
+            if (filteredHistoryData.isEmpty()) {
+                no_data_tv.visibility = View.VISIBLE
+                history_rv.visibility = View.GONE
+            } else {
+                no_data_tv.visibility = View.GONE
+                history_rv.visibility = View.VISIBLE
+
+                // SET ADAPTER
+                history_rv.layoutManager = LinearLayoutManager(requireContext())
+                val historyAdapter = HistoryAdapter(requireContext(),
+                    filteredHistoryData as ArrayList<String>)
+                history_rv.adapter = historyAdapter
+            }
+        }
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -80,6 +123,30 @@ class StatistikCewekFragment : Fragment() {
         lineChart.axisLeft.axisMinimum = 0f
         lineChart.axisRight.isEnabled = false
         lineChart.invalidate()
+    }
+    private fun filterData(days: Int): Pair<List<Entry>, List<String>> {
+        val currentDate = Calendar.getInstance()
+        val filteredKaloriData = ArrayList<Entry>()
+        val filteredHistoryData = ArrayList<String>()
+
+        val kaloriData = dbHelper.getAllKalori()
+        val historyData = dbHelper2.getAllCompletedDatesList()
+
+        for ((index, kaloriValue) in kaloriData.withIndex()) {
+            val xValue = index.toFloat()
+            val yValue = kaloriValue.toFloat()
+
+            val date = Calendar.getInstance()
+            date.add(Calendar.DAY_OF_YEAR, -index) // Mengurangi hari dari tanggal saat ini
+
+            // Filter data untuk jumlah hari yang diinginkan
+            if (currentDate.timeInMillis - date.timeInMillis <= days * 24 * 60 * 60 * 1000) {
+                filteredKaloriData.add(Entry(xValue, yValue))
+                filteredHistoryData.add(historyData[index])
+            }
+        }
+
+        return Pair(filteredKaloriData, filteredHistoryData)
     }
 
 

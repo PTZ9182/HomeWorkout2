@@ -38,10 +38,10 @@ class PraloginFragment : Fragment() {
         }
 
         binding.dpButtonLakilaki.setOnClickListener{
-            it.findNavController().navigate(R.id.action_praloginFragment_to_mainActivity2)
+            it.findNavController().navigate(R.id.action_praloginFragment_to_BMIAwalActivity)
         }
         binding.dpButtonPerempuan.setOnClickListener{
-            it.findNavController().navigate(R.id.action_praloginFragment_to_mainActivity3)
+            it.findNavController().navigate(R.id.action_praloginFragment_to_BMIAwalActivity2)
         }
     }
 

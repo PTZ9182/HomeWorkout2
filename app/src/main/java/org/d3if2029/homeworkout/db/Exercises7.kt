@@ -14,6 +14,7 @@ class Exercises7 {
                 "Squat",
                 R.drawable.squat,
                 "Squat adalah latihan yang melibatkan menekuk lutut dan pinggul, mirip seperti bergerak untuk duduk di kursi. Ini menguatkan kaki, paha, dan bokong Anda.",
+                "https://www.youtube.com/shorts/YeGjTjEpMNo",
                 false,
                 false)
             exercisesList.add(Squat)
@@ -22,6 +23,7 @@ class Exercises7 {
                 "Wall Sit",
                 R.drawable.wall_sit,
                 "Caranya, berdiri di depan dinding, berjalan kaki beberapa langkah menjauhi dinding, lalu bersandar pada dinding dengan punggung. Selanjutnya, langkahkan kaki ke depan dan berjongkok seperti posisi duduk di kursi, pastikan lutut membentuk sudut 90 derajat dan punggung menempel pada dinding. ",
+                "https://www.youtube.com/shorts/YeGjTjEpMNo",
                 false,
                 false)
             exercisesList.add(wallSit)
@@ -30,6 +32,7 @@ class Exercises7 {
                 "Lunges",
                 R.drawable.lunge,
                 "Lunges adalah latihan yang melibatkan langkah besar ke depan dengan satu kaki dan menekuk lutut hingga sudut 90 derajat, lalu kembali ke posisi berdiri. Ini melatih kaki, paha, dan bokong serta keseimbangan.",
+                "https://www.youtube.com/shorts/YeGjTjEpMNo",
                 false,
                 false)
             exercisesList.add(Lunges)
@@ -38,6 +41,7 @@ class Exercises7 {
                 "Glute Bridge",
                 R.drawable.clutebridge,
                 "Glute Bridge adalah latihan di mana Anda angkat pinggul dari lantai dengan fokus pada otot gluteus (bokong) Anda.",
+                "https://www.youtube.com/shorts/YeGjTjEpMNo",
                 false,
                 false)
             exercisesList.add(GluteBridge)
@@ -46,6 +50,7 @@ class Exercises7 {
                 "Step-Up Onto Chair",
                 R.drawable.stepup,
                 "Step-up onto a chair adalah latihan yang melibatkan langkah naik ke atas kursi. Mulailah dengan berdiri di depan kursi. Angkat kaki kanan dan letakkan telapak kaki di atas kursi, kemudian dorong tubuh dengan kaki kanan hingga berdiri penuh di atas kursi. Turunkan tubuh kembali dengan kaki kanan, diikuti kaki kiri. Latihan ini dapat membantu memperkuat otot kaki dan meningkatkan keseimbangan. Pastikan menggunakan kursi yang stabil dan sesuaikan intensitas sesuai tingkat Anda.",
+                "https://www.youtube.com/shorts/YeGjTjEpMNo",
                 false,
                 false)
             exercisesList.add(stepUp)
@@ -54,6 +59,7 @@ class Exercises7 {
                 "Donkey Kicks",
                 R.drawable.donkeykicks,
                 "Donkey Kicks adalah latihan di mana Anda mengangkat kaki ke belakang sejauh mungkin dari posisi berlutut, fokus pada otot gluteus (bokong).",
+                "https://www.youtube.com/shorts/YeGjTjEpMNo",
                 false,
                 false)
             exercisesList.add(DonkeyKicks)
@@ -62,6 +68,7 @@ class Exercises7 {
                 "Box Jumps",
                 R.drawable.boxjumps,
                 "Box Jumps adalah latihan lompatan ke atas kotak atau bangku untuk mengembangkan kekuatan kaki dan daya ledak.",
+                "https://www.youtube.com/shorts/YeGjTjEpMNo",
                 false,
                 false)
             exercisesList.add(BoxJumps)
@@ -70,6 +77,7 @@ class Exercises7 {
                 "Squat Jumps",
                 R.drawable.squatjumps,
                 "Squat Jumps adalah squat biasa dengan penambahan lompatan untuk melibatkan otot kaki, paha, dan bokong, serta memberikan unsur kardiovaskular. ",
+                "https://www.youtube.com/shorts/YeGjTjEpMNo",
                 false,
                 false)
             exercisesList.add(SquatJumps)
@@ -78,6 +86,7 @@ class Exercises7 {
                 "Calf Raises",
                 R.drawable.high_knees,
                 "Calf Raises adalah latihan di mana Anda mengangkat tumit sejauh mungkin untuk menguatkan otot betis (bagian belakang kaki).",
+                "https://www.youtube.com/shorts/YeGjTjEpMNo",
                 false,
                 false)
             exercisesList.add(CalfRaises)
@@ -86,6 +95,7 @@ class Exercises7 {
                 "Bicycle Crunches",
                 R.drawable.biyclecrunch,
                 "Bicycle Crunches adalah latihan perut di mana Anda membawa lutut ke siku secara bergantian saat berbaring telentang. ",
+                "https://www.youtube.com/shorts/YeGjTjEpMNo",
                 false,
                 false)
             exercisesList.add(BicycleCrunches)
@@ -94,6 +104,7 @@ class Exercises7 {
                 "Mountain Climbers",
                 R.drawable.mountaiclimber,
                 "Mountain Climbers adalah latihan yang melibatkan membawa lutut ke dada secara bergantian dalam posisi push-up untuk melatih otot perut dan kaki.",
+                "https://www.youtube.com/shorts/YeGjTjEpMNo",
                 false,
                 false)
             exercisesList.add(MountainClimbers)
@@ -102,6 +113,7 @@ class Exercises7 {
                 "Burpees",
                 R.drawable.burpes,
                 "Burpees adalah latihan yang melibatkan squat, push-up, dan lompatan, melibatkan seluruh tubuh dan memberikan elemen kardiovaskular dalam satu gerakan.",
+                "https://www.youtube.com/shorts/YeGjTjEpMNo",
                 false,
                 false)
             exercisesList.add(Burpees)

@@ -52,4 +52,5 @@ class Sqlite(context : Context, factory: SQLiteDatabase.CursorFactory?)
         cursor2.close()
         return kalori
     }
+
 }

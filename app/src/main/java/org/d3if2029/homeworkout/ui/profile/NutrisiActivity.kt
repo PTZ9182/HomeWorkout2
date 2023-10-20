@@ -57,7 +57,13 @@ class NutrisiActivity : AppCompatActivity() {
                 "\n" +
                 "Kombinasikan dengan Karbohidrat dan Sayuran: Untuk makanan seimbang, sajikan daging ayam dengan karbohidrat kompleks seperti nasi merah atau quinoa, serta sayuran segar.\n" +
                 "\n" +
-                "Porsi yang Seimbang: Pastikan untuk mengontrol porsi Anda sesuai dengan kebutuhan tubuh dan tujuan workout Anda."))
+                "Porsi yang Seimbang: Pastikan untuk mengontrol porsi Anda sesuai dengan kebutuhan tubuh dan tujuan workout Anda.\n" +
+                "\n" +
+                "Porsi makanan kalori dari daging ayam per hari untuk workout akan sangat bervariasi tergantung pada tujuan Anda, tingkat aktivitas fisik, dan asupan kalori keseluruhan. Namun, sebagai panduan singkat:\n" +
+                "\n" +
+                "Tujuan Meningkatkan Massa Otot: Jika tujuan Anda adalah meningkatkan massa otot, Anda mungkin perlu lebih banyak kalori. Porsi makanan daging ayam sekitar 4-6 ons (113-170 gram) per hari bisa cocok. Pastikan untuk mendapatkan cukup protein dari daging ayam untuk mendukung pertumbuhan otot.\n" +
+                "\n" +
+                "Tujuan Penurunan Berat Badan: Jika Anda sedang mencoba menurunkan berat badan sambil tetap melakukan workout, porsi daging ayam sekitar 3-4 ons (85-113 gram) per hari bisa sesuai. Hindari menggoreng daging ayam dan fokus pada metode memasak yang lebih sehat seperti panggang atau rebus."))
         foodList.add(Food("Daging Sapi", R.drawable.daging_sapi, "Daging sapi juga memiliki sejumlah manfaat bagi program workout atau latihan fisik. Berikut adalah beberapa manfaatnya dan cara penggunaannya secara singkat:\n" +
                 "\n" +
                 "Manfaat Daging Sapi untuk Workout:\n" +
@@ -80,7 +86,13 @@ class NutrisiActivity : AppCompatActivity() {
                 "\n" +
                 "Perhatikan Porsi: Kontrol porsi Anda untuk menghindari asupan kalori berlebihan. Porsi yang seimbang adalah kunci.\n" +
                 "\n" +
-                "Sertakan Sayuran: Tambahkan sayuran hijau atau berwarna-warni untuk memastikan asupan nutrisi yang seimbang."))
+                "Sertakan Sayuran: Tambahkan sayuran hijau atau berwarna-warni untuk memastikan asupan nutrisi yang seimbang.\n" +
+                "\n" +
+                "Porsi makanan kalori dari daging sapi per hari untuk workout akan sangat bervariasi tergantung pada tujuan Anda, tingkat aktivitas fisik, dan asupan kalori keseluruhan. Berikut adalah panduan singkat:\n" +
+                "\n" +
+                "Tujuan Meningkatkan Massa Otot: Jika Anda ingin meningkatkan massa otot, Anda mungkin memerlukan lebih banyak kalori. Porsi makan daging sapi sekitar 4-6 ons (113-170 gram) per hari bisa sesuai. Pastikan porsi tersebut memberikan asupan protein yang mencukupi untuk mendukung pertumbuhan otot.\n" +
+                "\n" +
+                "Tujuan Penurunan Berat Badan: Jika Anda sedang berusaha menurunkan berat badan sambil tetap menjalani workout, porsi daging sapi sekitar 3-4 ons (85-113 gram) per hari bisa cukup. Pilih potongan daging sapi yang lebih rendah lemak dan hindari penggunaan minyak berlebihan saat memasak."))
         foodList.add(Food("Telur", R.drawable.telur_rebus, "Telur adalah sumber nutrisi yang baik untuk mendukung program workout atau latihan fisik dengan berbagai manfaat, dan berikut adalah beberapa manfaatnya serta cara penggunaannya secara singkat:\n" +
                 "\n" +
                 "Manfaat Telur untuk Workout:\n" +
@@ -103,7 +115,13 @@ class NutrisiActivity : AppCompatActivity() {
                 "\n" +
                 "Telur sebagai Bahan Makanan: Anda juga dapat mengintegrasikan telur ke dalam hidangan seperti salad, sandwich, atau wrap untuk meningkatkan nilai gizinya.\n" +
                 "\n" +
-                "Kendalikan Konsumsi Kuning Telur: Kuning telur mengandung lemak dan kolesterol lebih tinggi, jadi konsumsilah dengan bijak sesuai dengan kebutuhan kalori dan lemak Anda."))
+                "Kendalikan Konsumsi Kuning Telur: Kuning telur mengandung lemak dan kolesterol lebih tinggi, jadi konsumsilah dengan bijak sesuai dengan kebutuhan kalori dan lemak Anda.\n " +
+                "\n" +
+                "Porsi makanan kalori telur rebus per hari untuk workout akan sangat bervariasi tergantung pada tujuan Anda, tingkat aktivitas fisik, dan asupan kalori keseluruhan. Berikut adalah panduan singkat:\n" +
+                "\n" +
+                "Tujuan Meningkatkan Massa Otot: Jika Anda ingin meningkatkan massa otot, telur rebus bisa menjadi sumber protein yang baik. Konsumsi sekitar 2-4 telur rebus per hari dapat memberikan asupan protein yang cukup untuk mendukung pertumbuhan otot.\n" +
+                "\n" +
+                "Tujuan Penurunan Berat Badan: Jika Anda sedang berusaha menurunkan berat badan sambil menjalani workout, porsi telur rebus sekitar 1-2 telur per hari bisa cukup. Namun, perhatikan total asupan kalori harian Anda."))
         foodList.add(Food("Buah", R.drawable.buah, "Buah-buahan adalah sumber nutrisi penting yang dapat memberikan banyak manfaat saat digunakan dalam program workout. Berikut adalah beberapa manfaat buah-buahan dan cara penggunaannya secara singkat:\n" +
                 "\n" +
                 "Manfaat Buah-buahan untuk Workout:\n" +
@@ -126,7 +144,13 @@ class NutrisiActivity : AppCompatActivity() {
                 "\n" +
                 "Cemilan Sehat: Buah-buahan seperti buah-buahan berry atau potongan buah segar bisa dijadikan cemilan sehat sepanjang hari.\n" +
                 "\n" +
-                "Perhatikan Asupan Gula: Meskipun buah-buahan mengandung gula alami, tetaplah membatasi konsumsi dalam jumlah berlebihan untuk menghindari asupan kalori berlebihan."))
+                "Perhatikan Asupan Gula: Meskipun buah-buahan mengandung gula alami, tetaplah membatasi konsumsi dalam jumlah berlebihan untuk menghindari asupan kalori berlebihan.\n" +
+                "\n" +
+                "Porsi makanan buah berkalori per hari untuk workout akan sangat bervariasi tergantung pada tujuan Anda, tingkat aktivitas fisik, dan asupan kalori keseluruhan. Berikut adalah panduan singkat:\n" +
+                "\n" +
+                "Tujuan Meningkatkan Massa Otot: Jika Anda ingin meningkatkan massa otot, asupan buah yang mengandung kalori seperti pisang atau apel dapat memberikan energi tambahan. Konsumsi 1-2 porsi buah per hari bisa sesuai.\n" +
+                "\n" +
+                "Tujuan Penurunan Berat Badan: Jika Anda sedang berusaha menurunkan berat badan sambil tetap menjalani workout, porsi buah sekitar 2-3 porsi per hari bisa sesuai. Pilih buah dengan kandungan gula yang lebih rendah seperti beri atau stroberi."))
         foodList.add(Food("Sayuran", R.drawable.sayuran, "Sayuran adalah komponen penting dalam diet yang dapat memberikan manfaat berikut saat digunakan dalam program workout:\n" +
                 "\n" +
                 "Manfaat Sayuran untuk Workout:\n" +
